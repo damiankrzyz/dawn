@@ -27,6 +27,12 @@
   {%- endstyle -%}
 
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+  {% if section.settings.image_zoom == 'hover' %}
+    <script id="enableZoomOnHover-main" src="{{ 'magnify.js' | asset_url }}" defer="defer"></script>
+  {% endif %}
+  {%- if request.design_mode and section.settings.image_zoom != 'hover' -%}
+    <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
+  {%- endif -%}
 
   {%- assign first_3d_model = product.media | where: 'media_type', 'model' | first -%}
   {%- if first_3d_model -%}
@@ -1146,9 +1152,6 @@
           endif
         -%}
 
-        {% if section.settings.image_zoom == 'hover' %}
-          <script src="{{ 'magnify.js' | asset_url }}" defer="defer"></script>
-        {% endif %}
         {%- for media in product.media -%}
           {%- liquid
             if section.settings.hide_variants and variant_images contains media.src

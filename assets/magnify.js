@@ -1,5 +1,5 @@
 // create a container and set the full-size image as its background
-const createOverlay = (image) => {
+function createOverlay(image) {
   overlay = document.createElement('div');
   overlay.setAttribute('class', 'image--full-size');
   overlay.setAttribute('aria-hidden', 'true');
@@ -7,7 +7,7 @@ const createOverlay = (image) => {
   return overlay;
 };
 
-const moveWithHover = (image, event, zoomRatio) => {
+function moveWithHover(image, event, zoomRatio) {
   // calculate mouse position
   const ratio = image.height / image.width;
   const container = event.target.getBoundingClientRect();
@@ -21,17 +21,21 @@ const moveWithHover = (image, event, zoomRatio) => {
   overlay.style.backgroundSize = `${image.width * zoomRatio}px`;
 };
 
-const magnify = (image, zoomRatio) => {
+function magnify(image, zoomRatio) {
   // add full-size image on top of original
   const overlay = createOverlay(image);
   image.parentElement.insertBefore(overlay, image);
 
   overlay.onclick = () => overlay.remove();
   overlay.onmousemove = (event) => moveWithHover(image, event, zoomRatio);
+  overlay.onmouseleave = () => overlay.remove();
 }
 
-const images = document.querySelectorAll('.image--original');
+function enableZoomOnHover() {
+  const images = document.querySelectorAll('.image--hover');
+  images && images.forEach(image => {
+    image.onclick = () => magnify(image, 2);
+  });
+}
 
-images.forEach(image => {
-  image.onclick = () => magnify(image, 3);
-});
+enableZoomOnHover();
