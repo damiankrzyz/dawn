@@ -2000,12 +2000,12 @@
         },
         "image_zoom": {
           "label": "Image zoom",
-          "info": "Zoom on hover defaults to open lightbox on mobile.",
+          "info": "Click and hover defaults to open lightbox on mobile.",
           "options__1": {
             "label": "Open lightbox"
           },
           "options__2": {
-            "label": "Zoom on hover"
+            "label": "Click and hover"
           },
           "options__3": {
             "label": "No zoom"
