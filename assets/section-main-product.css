@@ -1156,9 +1156,17 @@ a.product__text {
   pointer-events: none;
 }
 
+.product-modal--hover, .product-modal--none {
+  display: block;
+}
+
 @media (hover: hover) {
   .lightbox-button--hover {
     pointer-events: none;
+  }
+
+  .product-modal--hover {
+    display: none;
   }
 }
 
