@@ -627,7 +627,7 @@
     </div>
     <product-modal
       id="ProductModal-{{ section.id }}"
-      class="product-media-modal media-modal product-modal--{{ section.settings.image_zoom }}"
+      class="product-media-modal media-modal product-media-modal--{{ section.settings.image_zoom }}"
     >
       <div
         class="product-media-modal__dialog"
@@ -678,10 +678,10 @@
 </section>
 
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
-{% if section.settings.image_zoom == 'hover' %}
-  <script id="enableZoomOnHover-main" src="{{ 'magnify.js' | asset_url }}" defer="defer"></script>
-{% endif %}
-{%- if request.design_mode and section.settings.image_zoom != 'hover' -%}
+{%- if section.settings.image_zoom == 'hover' -%}
+  <script id="enableZoomOnHover-featured" src="{{ 'magnify.js' | asset_url }}" defer="defer"></script>
+{%- endif %}
+{%- if request.design_mode -%}
   <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 
@@ -690,12 +690,6 @@
     {{ product.media | where: 'media_type', 'model' | json }}
   </script>
   <script src="{{ 'product-model.js' | asset_url }}" defer></script>
-{%- endif -%}
-{% if section.settings.image_zoom == 'hover' %}
-  <script id="enableZoomOnHover-featured" src="{{ 'magnify.js' | asset_url }}" defer="defer"></script>
-{% endif %}
-{%- if request.design_mode and section.settings.image_zoom != 'hover' -%}
-  <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 
 {%- liquid

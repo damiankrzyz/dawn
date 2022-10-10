@@ -30,7 +30,7 @@
   {% if section.settings.image_zoom == 'hover' %}
     <script id="enableZoomOnHover-main" src="{{ 'magnify.js' | asset_url }}" defer="defer"></script>
   {% endif %}
-  {%- if request.design_mode and section.settings.image_zoom != 'hover' -%}
+  {%- if request.design_mode -%}
     <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
   {%- endif -%}
 
@@ -1122,7 +1122,7 @@
     {%- endif -%}
   </div>
 
-  <product-modal id="ProductModal-{{ section.id }}" class="product-media-modal media-modal product-modal--{{ section.settings.image_zoom }}">
+  <product-modal id="ProductModal-{{ section.id }}" class="product-media-modal media-modal product-media-modal--{{ section.settings.image_zoom }}">
     <div
       class="product-media-modal__dialog"
       role="dialog"

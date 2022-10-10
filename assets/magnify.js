@@ -1,9 +1,10 @@
 // create a container and set the full-size image as its background
 function createOverlay(image) {
   overlay = document.createElement('div');
-  overlay.setAttribute('class', 'image--full-size');
+  overlay.setAttribute('class', 'image-magnify__full-size');
   overlay.setAttribute('aria-hidden', 'true');
   overlay.style.backgroundImage = `url('${image.src}')`;
+  image.parentElement.insertBefore(overlay, image);
   return overlay;
 };
 
@@ -24,18 +25,19 @@ function moveWithHover(image, event, zoomRatio) {
 function magnify(image, zoomRatio) {
   // add full-size image on top of original
   const overlay = createOverlay(image);
-  image.parentElement.insertBefore(overlay, image);
-
   overlay.onclick = () => overlay.remove();
   overlay.onmousemove = (event) => moveWithHover(image, event, zoomRatio);
   overlay.onmouseleave = () => overlay.remove();
 }
 
-function enableZoomOnHover() {
-  const images = document.querySelectorAll('.image--hover');
-  images && images.forEach(image => {
-    image.onclick = () => magnify(image, 2);
+function enableZoomOnHover(images, zoomRatio) {
+  images.forEach(image => {
+    image.onclick = (event) => {
+      magnify(image, zoomRatio);
+      moveWithHover(image, event, zoomRatio);
+    };
   });
 }
 
-enableZoomOnHover();
+const hoverableImages = document.querySelectorAll('.image-magnify__hover');
+hoverableImages && enableZoomOnHover(hoverableImages, 2);

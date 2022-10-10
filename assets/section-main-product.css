@@ -1142,13 +1142,13 @@ a.product__text {
   border-color: rgb(var(--color-foreground));
 }
 
-.image--full-size {
+.image-magnify__full-size {
   cursor: zoom-out;
   z-index: 1;
   margin: 0;
 }
 
-.image--hover {
+.image-magnify__hover {
   cursor: zoom-in;
 }
 
@@ -1156,7 +1156,7 @@ a.product__text {
   display: none;
 }
 
-.product-modal--hover, .product-modal--none {
+.product-media-modal--hover, .product-media-modal--none {
   display: block;
 }
 
@@ -1165,7 +1165,7 @@ a.product__text {
     display: none;
   }
 
-  .product-modal--hover {
+  .product-media-modal--hover {
     display: none;
   }
 }
