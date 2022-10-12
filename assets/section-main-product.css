@@ -1156,16 +1156,8 @@ a.product__text {
   display: none;
 }
 
-.product-media-modal--hover, .product-media-modal--none {
-  display: block;
-}
-
 @media (hover: hover) {
   .lightbox-button--hover {
-    display: none;
-  }
-
-  .product-media-modal--hover {
     display: none;
   }
 }
