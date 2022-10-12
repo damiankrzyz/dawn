@@ -1162,7 +1162,7 @@ a.product__text {
   }
 }
 
-.product__media-container {
+.js .product__media {
   overflow: hidden !important;
 }
 

@@ -89,7 +89,7 @@
     </span>
   {%- endif -%}
 
-  <div class="product__media product__media-container media media--transparent gradient global-media-settings" style="padding-top: {{ 1 | divided_by: media.preview_image.aspect_ratio | times: 100 }}%;">
+  <div class="product__media media media--transparent gradient global-media-settings" style="padding-top: {{ 1 | divided_by: media.preview_image.aspect_ratio | times: 100 }}%;">
     {{ media.preview_image | image_url: width: 1946 | image_tag:
       class: image_class,
       loading: lazy,
