@@ -92,7 +92,7 @@
     "social_snapchat_link": "",
     "social_youtube_link": "https:\/\/www.youtube.com\/c\/Nanshy",
     "social_vimeo_link": "",
-    "predictive_search_enabled": false,
+    "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
     "favicon": "shopify:\/\/shop_images\/nanshy-logo-2x.png",
@@ -110,6 +110,7 @@
             "type": "announcement",
             "settings": {
               "text": "Get FREE Blending Sponge with every purchase (*while supplies last)",
+              "text_alignment": "center",
               "color_scheme": "accent-2",
               "link": ""
             }
@@ -118,6 +119,7 @@
             "type": "announcement",
             "settings": {
               "text": "EXTENDED SHIPPING TIMES DUE TO ROYAL MAIL STRIKES - PLEASE ALLOW 4-5 EXTRA DAYS",
+              "text_alignment": "center",
               "color_scheme": "inverse",
               "link": ""
             }
@@ -141,7 +143,10 @@
           "menu_type_desktop": "mega",
           "show_line_separator": true,
           "enable_sticky_header": true,
-          "margin_bottom": 0
+          "mobile_logo_position": "center",
+          "margin_bottom": 0,
+          "padding_top": 20,
+          "padding_bottom": 20
         }
       },
       "footer": {
