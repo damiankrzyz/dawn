@@ -11,14 +11,6 @@
             "heading_size": "h0"
           }
         },
-        "text": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
         "button": {
           "type": "buttons",
           "settings": {
@@ -29,18 +21,26 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "text": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
         "heading",
-        "text",
-        "button"
+        "button",
+        "text"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/free-makeup-sponge-2.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
-        "adapt_height_first_image": false,
+        "adapt_height_first_image": true,
         "desktop_content_position": "bottom-right",
         "show_text_box": false,
         "desktop_content_alignment": "center",
@@ -50,59 +50,97 @@
         "show_text_below": false
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "featured_collection": {
+    "1656681530a2152713": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
+        "title": "Best Sellers",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
+        "collection": "best-sellers",
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
-        "show_view_all": false,
+        "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
+        "show_rating": true,
+        "enable_quick_add": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "165668021389f399a6": {
+      "type": "collage",
+      "blocks": {
+        "165668021319b61894-0": {
+          "type": "video",
+          "settings": {
+            "cover_image": "shopify:\/\/shop_images\/face-rolller.png",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=42NdRSeCk7o",
+            "description": "face roller",
+            "image_padding": false
+          }
+        },
+        "165668021319b61894-1": {
+          "type": "product",
+          "settings": {
+            "product": "face-roller-facial-massager-metal",
+            "second_image": true
+          }
+        },
+        "165668021319b61894-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "skin-care"
+          }
+        }
+      },
+      "block_order": [
+        "165668021319b61894-0",
+        "165668021319b61894-1",
+        "165668021319b61894-2"
+      ],
+      "settings": {
+        "heading": "TRENDING NOW",
+        "heading_size": "h1",
+        "desktop_layout": "right",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Brush Sets",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "brush-sets",
+        "products_to_show": 6,
+        "columns_desktop": 3,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_top": 28,
         "padding_bottom": 36
       }
@@ -113,20 +151,20 @@
         "collection-0": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "accessories"
           }
         },
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "makeup-brush-cleaning-pads",
             "second_image": false
           }
         },
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "brush-care"
           }
         }
       },
@@ -136,89 +174,342 @@
         "collection-1"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "Brush Care",
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "16566794224f7aea80": {
+      "type": "rich-text",
+      "blocks": {
+        "16566794228121acf2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "AS SEEN IN",
+            "heading_size": "h1"
+          }
+        },
+        "16566794228121acf2-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16566794228121acf2-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16566794228121acf2-0",
+        "16566794228121acf2-1",
+        "16566794228121acf2-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "165771786296201f45": {
+      "type": "image-banner",
+      "blocks": {
+        "16577178620e10c13b-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "16577178620e10c13b-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "16577178620e10c13b-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16577178620e10c13b-0",
+        "16577178620e10c13b-1",
+        "16577178620e10c13b-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/thePress.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "We are Nanshy",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nanshy, an award-winning makeup brushes & tools loved by professionals.<\/p><p>Watch this video to learn more:<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "video": {
       "type": "video",
       "settings": {
         "heading": "",
-        "heading_size": "h1",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
+        "heading_size": "h2",
+        "cover_image": "shopify:\/\/shop_images\/nanshy-video.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=xU1pwQpfa_8",
+        "description": "About Nanshy",
         "full_width": false,
+        "color_scheme": "inverse",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "16580880931f712432": {
+      "type": "newsletter",
+      "blocks": {
+        "16580880938e5954f6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "16580880938e5954f6-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "16580880938e5954f6-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16580880938e5954f6-0",
+        "16580880938e5954f6-1",
+        "16580880938e5954f6-2"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16566794371ac28d6c": {
+      "type": "featured-product",
+      "blocks": {
+        "16566794377ea20f0a-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "16566794377ea20f0a-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "16566794377ea20f0a-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "16566794377ea20f0a-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "16566794377ea20f0a-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "16566794377ea20f0a-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "16566794377ea20f0a-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "16566794377ea20f0a-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "16566794377ea20f0a-0",
+        "16566794377ea20f0a-1",
+        "16566794377ea20f0a-2",
+        "16566794377ea20f0a-3",
+        "16566794377ea20f0a-4",
+        "16566794377ea20f0a-5",
+        "16566794377ea20f0a-6",
+        "16566794377ea20f0a-7"
+      ],
+      "settings": {
+        "product": "makeup-brush-holder-stand-organiser",
         "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "multicolumn": {
+    "1656680779f7e9bf07": {
+      "type": "rich-text",
+      "blocks": {
+        "1656680779476614e8-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "View More Products",
+            "button_link": "shopify:\/\/collections",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1656680779476614e8-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1656680817f77f53af": {
       "type": "multicolumn",
       "blocks": {
-        "column1": {
+        "1656680817d3f71d07-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Fabulous Brushes",
+            "text": "<p>Not only are these brushes amazing to use, but I accidentally ordered the wrong brush, I called the next morning to see if I could exchange before the order was sent out and the customer service was excellent, very helpful and friendly 😊 Definitely recommend 👌🏼<\/p><p>Michelle R.<\/p><p>⭐⭐⭐⭐⭐<\/p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column2": {
+        "1656680817d3f71d07-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "awesome brush",
+            "text": "<p>Ive been using this brush to apply my foundation for a few months now and i have to say the finish is flawless. One of the best brushes i have come across it certainly gives the more expensive brands a run for their money!<\/p><p>Dina<\/p><p>⭐⭐⭐⭐⭐<\/p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column3": {
+        "1656680817d3f71d07-0": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Amazing brush!",
+            "text": "<p>First brush I have purchased from Nanshy and it is so good!Best application of foundation I've had, move over Bobbi Brown 😊<\/p><p>Mandy H.<\/p><p>⭐⭐⭐⭐⭐<\/p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column1",
-        "column2",
-        "column3"
+        "1656680817d3f71d07-1",
+        "1656680817d3f71d07-2",
+        "1656680817d3f71d07-0"
       ],
       "settings": {
-        "title": "",
+        "title": "Don't just take our word for it",
         "heading_size": "h1",
-        "image_width": "third",
+        "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Product ratings from over 500 verified customers",
+        "button_link": "shopify:\/\/pages\/faq",
         "color_scheme": "background-1",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "swipe_on_mobile": true,
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     }
   },
   "order": [
     "image_banner",
-    "rich_text",
+    "1656681530a2152713",
+    "165668021389f399a6",
     "featured_collection",
     "collage",
+    "16566794224f7aea80",
+    "165771786296201f45",
+    "rich_text",
     "video",
-    "multicolumn"
+    "16580880931f712432",
+    "16566794371ac28d6c",
+    "1656680779f7e9bf07",
+    "1656680817f77f53af"
   ]
 }
