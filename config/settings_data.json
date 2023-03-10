@@ -117,6 +117,7 @@
           },
           "e758ff22-17bb-462a-9dbc-446ba32bf1cd": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "EXTENDED SHIPPING TIMES DUE TO ROYAL MAIL STRIKES - PLEASE ALLOW 4-5 EXTRA DAYS",
               "text_alignment": "center",
@@ -212,6 +213,12 @@
     "blocks": {
       "7555218208816688692": {
         "type": "shopify:\/\/apps\/email-popups-opt-in-pop-ups\/blocks\/app-embed\/48a5a3ef-b6ff-431f-842f-6f17862c4a63",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {
         }
