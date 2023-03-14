@@ -11,7 +11,7 @@
   window.Rivo.common.customer = {
     id: {{ customer.id | json }},
     tags: {{ customer.tags | json }},
-    email: {{customer.email | json}},
+    email: {{ customer.email | json }},
     accepts_marketing: {{ customer.accepts_marketing | json }},
     first_name: {{ customer.first_name | json }},
     last_name: {{ customer.last_name | json }},
@@ -24,13 +24,13 @@
   window.Rivo.common.template = '{{ template | split: "." | first }}';
   window.Rivo.common.cart = {% if cart.item_count > 0 %}{{ cart | json }}{% else %}{}{% endif %};
   window.Rivo.common.vapid_public_key = "BJuXCmrtTK335SuczdNVYrGVtP_WXn4jImChm49st7K7z7e8gxSZUKk4DhUpk8j2Xpiw5G4-ylNbMKLlKkUEU98=";
-  window.Rivo.global_config = {{shop.metafields.ba_global.config | json}};
+  window.Rivo.global_config = {{ shop.metafields.ba_global.config | json }};
 
   {% if product %}
     if (window.Rivo.common.template == 'product'){
       window.Rivo.common.product = {
-        id: {{product.id}}, price: {{product.price}}, handle: {{product.handle | json}}, tags: {{ product.tags | json}},
-        available: {{product.available}}, title: {{product.title | json}}, variants: {{product.variants | json}}
+        id: {{ product.id }}, price: {{ product.price }}, handle: {{ product.handle | json }}, tags: {{ product.tags | json }},
+        available: {{ product.available }}, title: {{ product.title | json }}, variants: {{ product.variants | json }}
       };
     }
   {% endif %}
@@ -38,7 +38,7 @@
 
 
 
-    window.Rivo.widgets_config = {{shop.metafields.ba_widgets.config | json}};
+    window.Rivo.widgets_config = {{ shop.metafields.ba_widgets.config | json }};
 
 </script>
 
