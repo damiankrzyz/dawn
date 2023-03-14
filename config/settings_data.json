@@ -85,7 +85,7 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
-    "accent_icons": "text",
+    "accent_icons": "outline-button",
     "social_facebook_link": "https:\/\/www.facebook.com\/NanshyOfficial\/",
     "social_instagram_link": "https:\/\/www.instagram.com\/nanshyofficial\/",
     "social_youtube_link": "https:\/\/www.youtube.com\/c\/Nanshy",
@@ -217,7 +217,7 @@
       },
       "855628211100114053": {
         "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       }
