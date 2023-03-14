@@ -241,7 +241,6 @@
     }
     </script>
   
-{% assign pageurl = content_for_header| split:'"pageurl":"' | last | split:'"' | first %} 
 {% assign Shopdomain = pageurl | split : "\/" | first %} 
 <script defer id='geoshippingbarscript' mlveda='{{Shopdomain}}' src='https://cdn.shopify.com/s/files/1/0619/9155/1169/files/GeoShipingBarProxy.js?v=1678809181'></script>
 {{ 'mlveda-shippingbar.css' | asset_url | stylesheet_tag }} 
