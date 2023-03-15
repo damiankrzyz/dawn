@@ -201,7 +201,7 @@
       "main-password-footer": {
         "type": "main-password-footer",
         "settings": {
-          "color_scheme": "background-1"
+          "color_scheme": "inverse"
         }
       }
     },
