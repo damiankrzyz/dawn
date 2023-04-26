@@ -209,6 +209,7 @@
         "7e7b33a4-516f-42be-acc5-51d39a000069": {
           "type": "video",
           "settings": {
+            "cover_image": "shopify:\/\/shop_images\/face-rolller.png",
             "video_url": "https:\/\/www.youtube.com\/watch?v=42NdRSeCk7o",
             "description": "FACE ROLLER"
           }
