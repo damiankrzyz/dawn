@@ -21,6 +21,7 @@
         },
         "button": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Free Gift",
             "button_link_1": "https:\/\/www.nanshy.co.uk\/cart\/add?id=41703727595713&quantity=1",
