@@ -37,6 +37,7 @@
         "button"
       ],
       "settings": {
+<<<<<<< HEAD
         "image": "shopify:\/\/shop_images\/Best_Sellers.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
@@ -45,6 +46,14 @@
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
         "image_behavior": "ambient",
+=======
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+>>>>>>> 48ad088795d14ee258acc249faeb2aa23c6b8a40
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
