@@ -2,6 +2,7 @@
   "current": "Default",
   "presets": {
     "Default": {
+      "logo": "shopify:\/\/shop_images\/Nanshy_final-vector-joint-2.svg",
       "logo_width": 90,
       "color_schemes": {
         "background-1": {
