@@ -12,16 +12,17 @@
             "menu": "nanshy"
           }
         },
-        "5d8ea23e-80d2-4580-bdfa-21a41ad8c0f0": {
-          "type": "brand_information",
+        "ca7bf1c4-3046-4a1a-9f53-90c935d2ec5e": {
+          "type": "text",
           "settings": {
-            "show_social": false
+            "heading": "Our mission",
+            "subtext": "<p>We demand 100% cruelty-free and at the highest quality, plus a tremendous value for the price. We could only achieve what we believe you deserve by designing, developing and manufacturing Nanshy.<\/p><p><em>Company number 08302139<br\/>VAT number 168320214<\/em><\/p>"
           }
         }
       },
       "block_order": [
         "c5a55fa3-4336-4a4d-9dab-618099635efc",
-        "5d8ea23e-80d2-4580-bdfa-21a41ad8c0f0"
+        "ca7bf1c4-3046-4a1a-9f53-90c935d2ec5e"
       ],
       "settings": {
         "color_scheme": "background-2",
