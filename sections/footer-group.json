@@ -12,6 +12,13 @@
             "menu": "nanshy"
           }
         },
+        "3035e97d-af67-4256-9fca-a2a728dd88cd": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Customer Hub",
+            "menu": "footer"
+          }
+        },
         "ca7bf1c4-3046-4a1a-9f53-90c935d2ec5e": {
           "type": "text",
           "settings": {
@@ -22,6 +29,7 @@
       },
       "block_order": [
         "c5a55fa3-4336-4a4d-9dab-618099635efc",
+        "3035e97d-af67-4256-9fca-a2a728dd88cd",
         "ca7bf1c4-3046-4a1a-9f53-90c935d2ec5e"
       ],
       "settings": {
