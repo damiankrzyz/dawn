@@ -96,6 +96,9 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
+    "brand_headline": "Our Mission",
+    "brand_description": "<p>We demand 100% cruelty-free and at the highest quality, plus a tremendous value for the price. We could only achieve what we believe you deserve by designing, developing and manufacturing Nanshy.<\/p>",
+    "brand_image": "shopify:\/\/shop_images\/nanshy.png",
     "social_facebook_link": "https:\/\/www.facebook.com\/NanshyOfficial\/",
     "social_instagram_link": "https:\/\/www.instagram.com\/nanshyofficial\/",
     "social_youtube_link": "https:\/\/www.youtube.com\/c\/Nanshy",
@@ -116,6 +119,7 @@
     "checkout_logo_image": "shopify:\/\/shop_images\/nanshy-logo-2x.png",
     "checkout_logo_position": "center",
     "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
     "checkout_accent_color": "#9d7b39",
     "checkout_button_color": "#dac6c3",
     "colors_solid_button_labels": "#ffffff",
@@ -238,7 +242,7 @@
           "text": "#121212",
           "button": "#121212",
           "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
+          "secondary_button_label": "#ffffff",
           "shadow": "#121212"
         }
       },
