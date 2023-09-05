@@ -116,8 +116,8 @@
     "checkout_logo_image": "shopify:\/\/shop_images\/nanshy-logo-2x.png",
     "checkout_logo_position": "center",
     "checkout_body_background_color": "#ffffff",
-    "checkout_accent_color": "#dac6c3",
-    "checkout_button_color": "#9d7b39",
+    "checkout_accent_color": "#9d7b39",
+    "checkout_button_color": "#dac6c3",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#9d7b39",
     "gradient_accent_1": "",
@@ -277,11 +277,11 @@
       },
       "accent-2": {
         "settings": {
-          "background": "#334fb4",
+          "background": "#dac6c3",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
-          "button_label": "#334fb4",
+          "button_label": "#dac6c3",
           "secondary_button_label": "#ffffff",
           "shadow": "#121212"
         }
@@ -290,7 +290,7 @@
         "settings": {
           "background": "#9d7b39",
           "background_gradient": "",
-          "text": "#fff",
+          "text": "#ffffff",
           "button": "#121212",
           "button_label": "#ffffff",
           "secondary_button_label": "#121212",
