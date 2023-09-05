@@ -113,7 +113,107 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/nanshy-logo-2x.png",
+    "checkout_logo_position": "center",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_accent_color": "#dac6c3",
+    "checkout_button_color": "#9d7b39",
+    "colors_solid_button_labels": "#ffffff",
+    "colors_accent_1": "#9d7b39",
+    "gradient_accent_1": "",
+    "colors_accent_2": "#dac6c3",
+    "gradient_accent_2": "",
+    "colors_text": "#121212",
+    "colors_outline_button_labels": "#121212",
+    "colors_background_1": "#ffffff",
+    "gradient_background_1": "",
+    "colors_background_2": "#f3f3f3",
+    "gradient_background_2": "",
+    "accent_icons": "outline-button",
     "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Get FREE Blending Sponge with every purchase (*while supplies last)",
+              "link": ""
+            }
+          },
+          "e758ff22-17bb-462a-9dbc-446ba32bf1cd": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "text": "EXTENDED SHIPPING TIMES DUE TO ROYAL MAIL STRIKES - PLEASE ALLOW 4-5 EXTRA DAYS",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0",
+          "e758ff22-17bb-462a-9dbc-446ba32bf1cd"
+        ],
+        "settings": {
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo_position": "top-center",
+          "menu": "main-menu",
+          "menu_type_desktop": "mega",
+          "show_line_separator": true,
+          "color_scheme": "background-1",
+          "mobile_logo_position": "center",
+          "margin_bottom": 0,
+          "padding_top": 20,
+          "padding_bottom": 20
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Nanshy",
+              "menu": "nanshy"
+            }
+          },
+          "footer-1": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Customer Hub",
+              "menu": "footer"
+            }
+          },
+          "footer-2": {
+            "type": "text",
+            "settings": {
+              "heading": "Our mission",
+              "subtext": "<p>We demand 100% cruelty-free and at the highest quality, plus a tremendous value for the price. We could only achieve what we believe you deserve by designing, developing and manufacturing Nanshy.<\/p><p><\/p><p><em>Company number 08302139<br\/>VAT number 168320214<\/em><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1",
+          "footer-2"
+        ],
+        "settings": {
+          "color_scheme": "accent-2",
+          "newsletter_enable": true,
+          "newsletter_heading": "Subscribe to our emails",
+          "show_social": true,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true,
+          "margin_top": 48,
+          "padding_top": 36,
+          "padding_bottom": 36
+        }
+      },
       "main-password-header": {
         "type": "main-password-header",
         "settings": {
