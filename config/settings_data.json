@@ -1,6 +1,6 @@
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/Nanshy_final-vector-joint-2.svg",
+    "logo": "shopify:\/\/shop_images\/nanshy_logo.jpg",
     "logo_width": 90,
     "favicon": "shopify:\/\/shop_images\/nanshy-logo-2x_0fa5a30d-52de-4fe2-b60d-60cd411609ed.png",
     "type_header_font": "assistant_n4",
@@ -8,9 +8,10 @@
     "type_body_font": "assistant_n4",
     "body_scale": 100,
     "page_width": 1200,
-    "spacing_sections": 0,
+    "spacing_sections": 4,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
+    "animations_hover_elements": "3d-lift",
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
     "buttons_radius": 0,
@@ -54,10 +55,10 @@
     "collection_card_shadow_horizontal_offset": 0,
     "collection_card_shadow_vertical_offset": 4,
     "collection_card_shadow_blur": 5,
-    "blog_card_style": "standard",
+    "blog_card_style": "card",
     "blog_card_image_padding": 0,
     "blog_card_text_alignment": "left",
-    "blog_card_color_scheme": "background-2",
+    "blog_card_color_scheme": "inverse",
     "blog_card_border_thickness": 0,
     "blog_card_border_opacity": 10,
     "blog_card_corner_radius": 0,
@@ -114,8 +115,8 @@
     "currency_code_enabled": true,
     "cart_type": "notification",
     "show_vendor": false,
-    "show_cart_note": false,
-    "cart_drawer_collection": "",
+    "show_cart_note": true,
+    "cart_drawer_collection": "best-sellers",
     "checkout_logo_image": "shopify:\/\/shop_images\/nanshy-logo-2x.png",
     "checkout_logo_position": "center",
     "checkout_body_background_color": "#ffffff",
@@ -240,9 +241,9 @@
           "background": "#ffffff",
           "background_gradient": "",
           "text": "#121212",
-          "button": "#121212",
-          "button_label": "#ffffff",
-          "secondary_button_label": "#ffffff",
+          "button": "#ffffff",
+          "button_label": "#000000",
+          "secondary_button_label": "#000000",
           "shadow": "#121212"
         }
       },
@@ -489,5 +490,11 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "header.page-width.page-width--narrow, .article-template__social-sharing.page-width.page-width--narrow, .article-template__content.page-width.page-width--narrow.rte, .article-template__back.element-margin-top.cente {max-width: 130rem; }",
+      " .main-blog.page-width.section-template--16072400470186__main-padding > h1 {display: none; }"
+    ]
   }
 }
