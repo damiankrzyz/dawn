@@ -16,6 +16,19 @@
   }
 {%- endstyle -%}
 
+<aside>
+  {%- if section.settings.blog_show_tags -%}
+    <ul>
+      <li>
+        {%- for tag in blog.all_tags -%}
+          <a href="{{ blog.url }}/tagged/{{ tag | handle }}">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+        {%- endfor -%}
+      </li>
+    </ul>
+  {%- endif -%}
+</aside>
+
+
 {%- paginate blog.articles by 6 -%}
   <div class="main-blog page-width section-{{ section.id }}-padding">
     <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
