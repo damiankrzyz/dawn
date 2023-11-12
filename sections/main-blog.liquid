@@ -23,7 +23,7 @@
     </h1>
 
 <aside>
-    <ul class="list-menu">
+    <ul class="list-menu list-menu__item">
       <li>
         {%- for tag in blog.all_tags -%}
           <a href="{{ blog.url }}/tagged/{{ tag | handle }}">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
