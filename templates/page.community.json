@@ -9,6 +9,10 @@
     },
     "8a99ecc7-82e8-4dd7-b060-ac81aedafe6a": {
       "type": "custom-liquid",
+      "custom_css": [
+        "#dovetale-frame{height: 960px; display: block; }",
+        " @media (max-width: 832px){#dovetale-frame{height: 1500px; } }"
+      ],
       "settings": {
         "custom_liquid": "<iframe id='dovetale-frame' width='100%' style='border: none' src='https:\/\/join.collabs.shopify.com\/community\/embed\/aoWXa9PmFCg\/'><\/iframe>",
         "color_scheme": "",
