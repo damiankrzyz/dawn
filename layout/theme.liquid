@@ -287,6 +287,13 @@
     {% assign pageurl = content_for_header | split: '"pageurl":"' | last | split: '"' | first %}
     {% assign Shopdomain = pageurl | split: '\/' | first %}
     <script
+      src="https://cdn.shopify.com/s/files/1/0619/9155/1169/files/jquery-1.12.4.min.js?v=1679589158"
+      async
+    ></script>
+    <script>
+      $m=$.noConflict();
+    </script>
+    <script
       id="geoshippingbarscript"
       mlveda="{{Shopdomain}}"
       src="https://nanshyuk.myshopify.com/apps/GeoShippingBar/GeoShipingBarProxy.js"
@@ -363,9 +370,5 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-    <script
-      src="https://cdn.shopify.com/s/files/1/0619/9155/1169/files/jquery-1.12.4.min.js?v=1679589158"
-      async
-    ></script>
   </body>
 </html>
