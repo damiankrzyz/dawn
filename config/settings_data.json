@@ -508,8 +508,7 @@
   "platform_customizations": {
     "custom_css": [
       "header.page-width.page-width--narrow,.article-template__social-sharing.page-width.page-width--narrow,.article-template__content.page-width.page-width--narrow.rte,.article-template__back.element-margin-top.cente {max-width: 130rem;}",
-      ".main-blog.page-width.section-template--16072400470186__main-padding > h1 {display: none;}",
-      "@font-face {font-family: \"Marcellus\"; src: url({{\"Marcellus.ttf\" | asset_url }}) format(\"ttf\");}"
+      ".main-blog.page-width.section-template--16072400470186__main-padding > h1 {display: none;}"
     ]
   }
 }
