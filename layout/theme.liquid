@@ -36,7 +36,12 @@
     {%- endif -%}
 
     {{ content_for_header }}
-
+    {%- unless settings.type_body_font.system? -%}
+      {{ 'DMSans-Regular.ttf' | asset_url | preload_tag: as: 'font' }}
+    {%- endunless -%}
+    {%- unless settings.type_header_font.system? -%}
+      {{ 'Marcellus.ttf' | asset_url | preload_tag: as: 'font' }}
+    {%- endunless -%}
     {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
       assign body_font_italic = settings.type_body_font | font_modify: 'style', 'italic'
@@ -255,13 +260,6 @@
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
-
-    {%- unless settings.type_body_font.system? -%}
-      {{ 'DMSans-Regular.ttf' | asset_url | preload_tag: as: 'font' }}
-    {%- endunless -%}
-    {%- unless settings.type_header_font.system? -%}
-      {{ 'Marcellus.ttf' | asset_url | preload_tag: as: 'font' }}
-    {%- endunless -%}
 
     {%- if localization.available_countries.size > 1 or localization.available_languages.size > 1 -%}
       {{ 'component-localization-form.css' | asset_url | stylesheet_tag: preload: true }}
