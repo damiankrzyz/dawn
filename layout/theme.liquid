@@ -1,13 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
-    <script
-      src="https://cdn.shopify.com/s/files/1/0619/9155/1169/files/jquery-1.12.4.min.js?v=1679589158"
-      async
-    ></script>
-    <script>
-      $m = $.noConflict(true);
-    </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -370,5 +363,9 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+    <script
+      src="https://cdn.shopify.com/s/files/1/0619/9155/1169/files/jquery-1.12.4.min.js?v=1679589158"
+      async
+    ></script>
   </body>
 </html>
