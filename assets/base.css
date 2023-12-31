@@ -3501,5 +3501,5 @@ details-disclosure > details {
 }
 @font-face {
     font-family: "Marcellus";
-    src: url({{ "Marcellus-Regular" | asset_url }}) format("ttf");
+    src: url({{ "Marcellus-Regular.ttf" | asset_url }}) format("ttf");
 }
