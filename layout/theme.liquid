@@ -13,6 +13,8 @@
 
     {%- unless settings.type_header_font.system? and settings.type_body_font.system? -%}
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
+      <link rel="preconnect" href="https://www.nanshy.co.uk" crossorigin>
+      <link rel="preconnect" href="https://nanshy.com" crossorigin>
     {%- endunless -%}
 
     <title>
@@ -37,10 +39,10 @@
 
     {{ content_for_header }}
     {%- unless settings.type_body_font.system? -%}
-      {{ 'DMSans-Regular.ttf' | asset_url | preload_tag: as: 'font' }}
+      {{ 'DMSans-Regular.ttf' | asset_url | preload_tag: as: 'font' | type="font/ttf" crossorigin }}
     {%- endunless -%}
     {%- unless settings.type_header_font.system? -%}
-      {{ 'Marcellus.ttf' | asset_url | preload_tag: as: 'font' }}
+      {{ 'Marcellus.ttf' | asset_url | preload_tag: as: 'font' | type="font/ttf" crossorigin }}
     {%- endunless -%}
     {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
