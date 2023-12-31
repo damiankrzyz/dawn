@@ -3,17 +3,53 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        "\/* Style the buttons that are used to open and close the accordion panel *\/.accordion {background-color: #eee; color: #444; cursor: pointer; padding: 18px; width: 100%; text-align: left; border: none; outline: none; transition: 0.4s;}",
-        "\/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) *\/.active, .accordion:hover {background-color: #ccc;}",
-        "\/* Style the accordion panel. Note: hidden by default *\/.panel {padding: 0 18px; background-color: white; display: none; overflow: hidden;}"
+        ".accordion {background-color: #eee; color: #444; cursor: pointer; padding: 18px; width: 100%; text-align: left; border: none; outline: none; transition: 0.4s;}",
+        ".active,.accordion:hover {background-color: #ccc;}",
+        ".panel {padding: 0 18px; background-color: white; display: none; overflow: hidden;}"
       ],
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "17040370107a33a4cf": {
+      "type": "apps",
+      "blocks": {
+        "a236ce20-044d-45d0-9f5a-cbe3415637fa": {
+          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "",
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#1878B9",
+            "errors_color": "#E02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        },
+        "1106f53e-8cde-4167-aa46-2e10bc56295f": {
+          "type": "shopify:\/\/apps\/contact-form-with-api\/blocks\/contact_form\/6dfef52d-c947-4e01-8053-3bb4279e6f33",
+          "settings": {
+            "shortcode": "<div class=\"form-builder-ips\" data-ap-key=\"61991551169\" data-key=\"65918de925b7c03a70aafbef\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "a236ce20-044d-45d0-9f5a-cbe3415637fa",
+        "1106f53e-8cde-4167-aa46-2e10bc56295f"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "17040370107a33a4cf"
   ]
 }
