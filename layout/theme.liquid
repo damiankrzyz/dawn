@@ -247,10 +247,10 @@
     {{ 'base.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
-      <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
+      {{ 'DMSans-Regular.ttf' | asset_url | preload_tag: as: 'font' }}
     {%- endunless -%}
     {%- unless settings.type_header_font.system? -%}
-      <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>
+      {{ 'Marcellus.ttf' | asset_url | preload_tag: as: 'font' }}
     {%- endunless -%}
 
     {%- if localization.available_countries.size > 1 or localization.available_languages.size > 1 -%}
@@ -280,6 +280,7 @@
       id="geoshippingbarscript"
       mlveda="{{Shopdomain}}"
       src="https://nanshyuk.myshopify.com/apps/GeoShippingBar/GeoShipingBarProxy.js"
+      defer
     ></script>
     {{ 'mlveda-shippingbar.css' | asset_url | stylesheet_tag }}
     {% capture boostersnippet %}{% include "booster-apps-common" %}{% endcapture %}
