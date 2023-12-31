@@ -53,11 +53,8 @@
       src: url("https://cdn.shopify.com/s/files/1/0619/9155/1169/files/Marcellus.ttf?v=1704025758") format("ttf");
       }
       @font-face {
-          font-family: Marcellus;
-          font-weight: 400;
-          font-style: normal;
-          font-display: swap;
-      src: url("https://cdn.shopify.com/s/files/1/0619/9155/1169/files/Marcellus.ttf?v=1704025758") format("woff");
+          font-family: DMSans-Regular;
+      src: url("https://cdn.shopify.com/s/files/1/0619/9155/1169/files/DMSans-Regular.ttf?v=1704027755") format("woff");
         }
 
       {% for scheme in settings.color_schemes -%}
@@ -92,7 +89,7 @@
       }
 
       :root {
-        --font-body-family: 'Marcellus';
+        --font-body-family: 'DMSans-Regular';
         --font-body-style: {{ settings.type_body_font.style }};
         --font-body-weight: {{ settings.type_body_font.weight }};
         --font-body-weight-bold: {{ settings.type_body_font.weight | plus: 300 | at_most: 1000 }};
