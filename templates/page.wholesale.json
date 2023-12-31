@@ -6,9 +6,69 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "170404280552f918fd": {
+      "type": "apps",
+      "blocks": {
+        "6858f502-a633-46e1-adb2-5addcec9a938": {
+          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "45877",
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#1878B9",
+            "errors_color": "#E02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "6858f502-a633-46e1-adb2-5addcec9a938"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "890c4849-a497-45f7-96c4-1e8ac0d82619": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21560148689089__890c4849-a497-45f7-96c4-1e8ac0d82619-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "WHAT WE GIVE BACK?",
+            "heading_size": "h1"
+          }
+        },
+        "template--21560148689089__890c4849-a497-45f7-96c4-1e8ac0d82619-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The great earning potential with our high-quality makeup brushes and tools. Wholesale partners will be listed on our website under Authorised Resellers and will be featured in our PR Campaigns targeted at specific countries.<\/p><p>Do not delay and start earning with us now. Our wholesale team is awaiting your application!<\/p><p>Innovative Makeup Tools<br\/>NANSHY Wholesale Team<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21560148689089__890c4849-a497-45f7-96c4-1e8ac0d82619-heading-1",
+        "template--21560148689089__890c4849-a497-45f7-96c4-1e8ac0d82619-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "170404280552f918fd",
+    "890c4849-a497-45f7-96c4-1e8ac0d82619"
   ]
 }
