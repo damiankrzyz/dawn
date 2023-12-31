@@ -3499,3 +3499,7 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
+@font-face {
+    font-family: "Marcellus";
+    src: url({{ "Marcellus-Regular" | asset_url }}) format("ttf");
+}
