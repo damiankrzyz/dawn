@@ -3499,7 +3499,3 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
-@font-face {
-    font-family: "Marcellus";
-    src: url({{ "Marcellus-Regular.ttf" | https://www.nanshy.co.uk/cdn/shop/t/9/assets/Marcellus-Regular.ttf }}) format("ttf"))
-}
