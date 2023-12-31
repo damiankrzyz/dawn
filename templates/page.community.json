@@ -7,22 +7,35 @@
         "padding_bottom": 28
       }
     },
-    "8a99ecc7-82e8-4dd7-b060-ac81aedafe6a": {
-      "type": "custom-liquid",
-      "custom_css": [
-        "#dovetale-frame{height: 960px; display: block; }",
-        " @media (max-width: 832px){#dovetale-frame{height: 1500px; } }"
+    "1704043864efad756d": {
+      "type": "apps",
+      "blocks": {
+        "f8e177c4-9aa4-48e6-8d17-66b5ee27134c": {
+          "type": "shopify:\/\/apps\/collabs\/blocks\/application-page\/54758706-9f25-4fa9-a553-64720a4c998b",
+          "settings": {
+            "heading": "Affiliate programme",
+            "show_square_logo": true,
+            "show_partnership_info": true,
+            "button_text": "Apply now",
+            "number_of_images": "4",
+            "logo_position": "above",
+            "corner_style": "square",
+            "button_background_color": "#000000",
+            "button_label_color": "#ffffff",
+            "link_color": "#2c6ecb"
+          }
+        }
+      },
+      "block_order": [
+        "f8e177c4-9aa4-48e6-8d17-66b5ee27134c"
       ],
       "settings": {
-        "custom_liquid": "<iframe id='dovetale-frame' width='100%' style='border: none' src='https:\/\/join.collabs.shopify.com\/community\/embed\/aoWXa9PmFCg\/'><\/iframe>",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "include_margins": true
       }
     }
   },
   "order": [
     "main",
-    "8a99ecc7-82e8-4dd7-b060-ac81aedafe6a"
+    "1704043864efad756d"
   ]
 }
