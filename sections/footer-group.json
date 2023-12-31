@@ -2,6 +2,15 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "b88f12fe-93a0-48ef-bdde-6ef41eea068c": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"footer__content-bottom-wrapper page-width footer__content-bottom-wrapper--center\">\n<h3>Our mission<\/h3>      \n<div>\n       We demand 100% cruelty-free and at the highest quality, plus a tremendous value for the price. We could only achieve what we believe you deserve by designing, developing and manufacturing Nanshy.\n    <\/div>",
+        "color_scheme": "accent-2",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -19,18 +28,18 @@
             "menu": "footer"
           }
         },
-        "1b7da7d6-7480-4976-a8e1-7df59629a1fd": {
-          "type": "text",
+        "973ec1f5-af61-40ac-8bf0-14c86dab3bb4": {
+          "type": "link_list",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>We demand 100% cruelty-free and at the highest quality, plus a tremendous value for the price. We could only achieve what we believe you deserve by designing, developing and manufacturing Nanshy. <\/p>"
+            "heading": "More",
+            "menu": "about"
           }
         }
       },
       "block_order": [
         "c5a55fa3-4336-4a4d-9dab-618099635efc",
         "3035e97d-af67-4256-9fca-a2a728dd88cd",
-        "1b7da7d6-7480-4976-a8e1-7df59629a1fd"
+        "973ec1f5-af61-40ac-8bf0-14c86dab3bb4"
       ],
       "settings": {
         "color_scheme": "accent-2",
@@ -58,6 +67,7 @@
     }
   },
   "order": [
+    "b88f12fe-93a0-48ef-bdde-6ef41eea068c",
     "footer",
     "e46eee53-b089-4794-9f73-38f2f5b2fdfe"
   ]
