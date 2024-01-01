@@ -4,29 +4,203 @@
       "type": "main-collection-banner",
       "settings": {
         "show_collection_description": true,
-        "show_collection_image": false,
-        "color_scheme": "background-1"
+        "show_collection_image": true,
+        "color_scheme": "accent-2"
       }
     },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "products_per_page": 16,
-        "columns_desktop": 4,
+        "products_per_page": 12,
+        "columns_desktop": 3,
         "image_ratio": "adapt",
-        "show_secondary_image": false,
+        "image_shape": "default",
+        "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
+        "enable_quick_add": true,
         "enable_filtering": true,
+        "filter_type": "horizontal",
         "enable_sorting": true,
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "4272e58b-2d3f-495f-95fe-a90a955dac40": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21562497138881__4272e58b-2d3f-495f-95fe-a90a955dac40-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Get pro-level makeup results with the right tools<\/h2><p>Our makeup brushes (eyes, lips, face brush) are the perfect way to make sure you get <strong>professional-looking results<\/strong>. You can use them for foundation, powder, mascara, blush, contour, highlight, concealer, setting, eye brows, eyeshadow, eyeliner, blending, lip or combine multiple tools to create your desired look!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21562497138881__4272e58b-2d3f-495f-95fe-a90a955dac40-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "8ebad725-142f-4f43-8cf0-1bbfe20ce766": {
+      "type": "featured-product",
+      "blocks": {
+        "template--21562497138881__8ebad725-142f-4f43-8cf0-1bbfe20ce766-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--21562497138881__8ebad725-142f-4f43-8cf0-1bbfe20ce766-title-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--21562497138881__8ebad725-142f-4f43-8cf0-1bbfe20ce766-price-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--21562497138881__8ebad725-142f-4f43-8cf0-1bbfe20ce766-variant_picker-1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--21562497138881__8ebad725-142f-4f43-8cf0-1bbfe20ce766-quantity_selector-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--21562497138881__8ebad725-142f-4f43-8cf0-1bbfe20ce766-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "template--21562497138881__8ebad725-142f-4f43-8cf0-1bbfe20ce766-share-1": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--21562497138881__8ebad725-142f-4f43-8cf0-1bbfe20ce766-text-1",
+        "template--21562497138881__8ebad725-142f-4f43-8cf0-1bbfe20ce766-title-1",
+        "template--21562497138881__8ebad725-142f-4f43-8cf0-1bbfe20ce766-price-1",
+        "template--21562497138881__8ebad725-142f-4f43-8cf0-1bbfe20ce766-variant_picker-1",
+        "template--21562497138881__8ebad725-142f-4f43-8cf0-1bbfe20ce766-quantity_selector-1",
+        "template--21562497138881__8ebad725-142f-4f43-8cf0-1bbfe20ce766-buy_buttons-1",
+        "template--21562497138881__8ebad725-142f-4f43-8cf0-1bbfe20ce766-share-1"
+      ],
+      "settings": {
+        "product": "masterful-collection-brush-set",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "right",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "9c11a535-f3c8-43a6-b9cc-cb3b18ec005d": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21562497138881__9c11a535-f3c8-43a6-b9cc-cb3b18ec005d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Do makeup brushes make a difference?",
+            "heading_size": "h2"
+          }
+        },
+        "template--21562497138881__9c11a535-f3c8-43a6-b9cc-cb3b18ec005d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The right brushes can make<strong>all the difference<\/strong>when it comes to your look. They help you apply your makeup quickly and evenly, giving you professional-looking results every time! Gain full control over your application with these impeccable quality brushes. Our brushes are perfect for those who want total control of their look. This range of cosmetic brushes comes with all the tools you need to apply foundation for flawless finish, contour, and highlight with ease. With a fast Worldwide shipping, building<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--21562497138881__9c11a535-f3c8-43a6-b9cc-cb3b18ec005d-heading-1",
+        "template--21562497138881__9c11a535-f3c8-43a6-b9cc-cb3b18ec005d-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/makeup-brushes-make-a-difference.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "32479e2a-6e3a-42f1-b961-97e5c03e6103": {
+      "type": "video",
+      "settings": {
+        "heading": "Makeup Brush Guide [Video]",
+        "heading_size": "h2",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=heneJ6r_bms",
+        "cover_image": "shopify:\/\/shop_images\/Makeup_Brush_Guide_Video.webp",
+        "description": "Makeup Brush Guide [Video]",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ca51292d-d859-48cc-b472-48b3fa24b1a1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21562497138881__ca51292d-d859-48cc-b472-48b3fa24b1a1-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Fall in love with applying makeup like a professional by using our makeup brush collection.<\/h2><p>These tools are perfect for applying all types of makeup, from foundation brushes to blush and everything in between. Our brushes come in a variety of shapes and sizes, so you can find the perfect one for your needs. We also offer a wide range of brush sets that include multiple brushes to help you create any look you want.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21562497138881__ca51292d-d859-48cc-b472-48b3fa24b1a1-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "4272e58b-2d3f-495f-95fe-a90a955dac40",
+    "8ebad725-142f-4f43-8cf0-1bbfe20ce766",
+    "9c11a535-f3c8-43a6-b9cc-cb3b18ec005d",
+    "32479e2a-6e3a-42f1-b961-97e5c03e6103",
+    "ca51292d-d859-48cc-b472-48b3fa24b1a1"
   ]
 }
