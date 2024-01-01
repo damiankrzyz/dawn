@@ -34,20 +34,12 @@
             "heading": "More",
             "menu": "about"
           }
-        },
-        "ca4f020c-8849-41db-85c2-4e17c5cfc298": {
-          "type": "text",
-          "settings": {
-            "heading": "Heading",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-          }
         }
       },
       "block_order": [
         "c5a55fa3-4336-4a4d-9dab-618099635efc",
         "3035e97d-af67-4256-9fca-a2a728dd88cd",
-        "973ec1f5-af61-40ac-8bf0-14c86dab3bb4",
-        "ca4f020c-8849-41db-85c2-4e17c5cfc298"
+        "973ec1f5-af61-40ac-8bf0-14c86dab3bb4"
       ],
       "settings": {
         "color_scheme": "accent-2",
