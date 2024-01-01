@@ -5,10 +5,10 @@
     "b88f12fe-93a0-48ef-bdde-6ef41eea068c": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"footer__content-bottom-wrapper page-width footer__content-bottom-wrapper--center\">\n<h3>Our mission<\/h3>      \n<div>\n       We demand 100% cruelty-free and at the highest quality, plus a tremendous value for the price. We could only achieve what we believe you deserve by designing, developing and manufacturing Nanshy.\n    <\/div>",
-        "color_scheme": "accent-2",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "custom_liquid": "<div class=\"center\">\n<h3>Our mission<\/h3>      \n<div>\n       We demand 100% cruelty-free and at the highest quality, plus a tremendous value for the price. We could only achieve what we believe you deserve by designing, developing and manufacturing Nanshy.\n    <\/div>",
+        "color_scheme": "accent-1",
+        "padding_top": 4,
+        "padding_bottom": 36
       }
     },
     "footer": {
