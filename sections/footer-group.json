@@ -34,12 +34,20 @@
             "heading": "Our Values",
             "menu": "our-values"
           }
+        },
+        "d9b0fc0e-28cc-488e-995c-8ea7837e4978": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
         }
       },
       "block_order": [
         "3035e97d-af67-4256-9fca-a2a728dd88cd",
         "c5a55fa3-4336-4a4d-9dab-618099635efc",
-        "973ec1f5-af61-40ac-8bf0-14c86dab3bb4"
+        "973ec1f5-af61-40ac-8bf0-14c86dab3bb4",
+        "d9b0fc0e-28cc-488e-995c-8ea7837e4978"
       ],
       "settings": {
         "color_scheme": "accent-2",
@@ -60,7 +68,7 @@
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "<div class=\"footer__content-bottom-wrapper page-width footer__content-bottom-wrapper--center\">\n      <div>\n       Company number 08302139 | VAT number 168320214<\/div>\n    <\/div>",
-        "color_scheme": "inverse",
+        "color_scheme": "accent-1",
         "padding_top": 12,
         "padding_bottom": 12
       }
