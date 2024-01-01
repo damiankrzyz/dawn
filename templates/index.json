@@ -278,36 +278,6 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "e7f16aeb-ee97-4d3c-b63f-80b1a8e46227": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16230314115265__e7f16aeb-ee97-4d3c-b63f-80b1a8e46227-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Our Mission",
-            "heading_size": "h1"
-          }
-        },
-        "template--16230314115265__e7f16aeb-ee97-4d3c-b63f-80b1a8e46227-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>At Nanshy, we are uncompromising in our commitment to ethical beauty, ensuring that every product we offer is 100% cruelty-free and embodies the pinnacle of quality. We passionately believe that luxury and affordability should go hand in hand, providing you with exceptional value without ever compromising on performance. Each Nanshy item is meticulously designed, developed, and manufactured with one goal in mind: to deliver the excellence you deserve. Welcome to a world where beauty, integrity, and value coalesce — welcome to Nanshy, where compassion meets cosmetics.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16230314115265__e7f16aeb-ee97-4d3c-b63f-80b1a8e46227-heading-1",
-        "template--16230314115265__e7f16aeb-ee97-4d3c-b63f-80b1a8e46227-text-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "accent-1",
-        "full_width": true,
-        "padding_top": 16,
-        "padding_bottom": 16
-      }
     }
   },
   "order": [
@@ -318,7 +288,6 @@
     "video",
     "multicolumn",
     "collage",
-    "e9ac7e06-f803-4361-9597-2af27f4013fa",
-    "e7f16aeb-ee97-4d3c-b63f-80b1a8e46227"
+    "e9ac7e06-f803-4361-9597-2af27f4013fa"
   ]
 }
