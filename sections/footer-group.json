@@ -17,7 +17,7 @@
         "c5a55fa3-4336-4a4d-9dab-618099635efc": {
           "type": "link_list",
           "settings": {
-            "heading": "Nanshy",
+            "heading": "Community",
             "menu": "community"
           }
         },
@@ -31,7 +31,7 @@
         "973ec1f5-af61-40ac-8bf0-14c86dab3bb4": {
           "type": "link_list",
           "settings": {
-            "heading": "More",
+            "heading": "Our Values",
             "menu": "our-values"
           }
         }
