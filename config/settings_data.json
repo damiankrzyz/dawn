@@ -3,17 +3,6 @@
     "logo": "shopify:\/\/shop_images\/Nanshy_final-vector-joint-2.svg",
     "logo_width": 90,
     "favicon": "shopify:\/\/shop_images\/nanshy-logo-2x.png",
-    "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#9d7b39",
-    "gradient_accent_1": "",
-    "colors_accent_2": "#dac6c3",
-    "gradient_accent_2": "",
-    "colors_text": "#121212",
-    "colors_outline_button_labels": "#121212",
-    "colors_background_1": "#ffffff",
-    "gradient_background_1": "",
-    "colors_background_2": "#f3f3f3",
-    "gradient_background_2": "",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
@@ -85,7 +74,6 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
-    "accent_icons": "outline-button",
     "social_facebook_link": "https:\/\/www.facebook.com\/NanshyOfficial\/",
     "social_instagram_link": "https:\/\/www.instagram.com\/nanshyofficial\/",
     "social_youtube_link": "https:\/\/www.youtube.com\/c\/Nanshy",
@@ -104,6 +92,18 @@
     "checkout_body_background_color": "#ffffff",
     "checkout_accent_color": "#dac6c3",
     "checkout_button_color": "#9d7b39",
+    "colors_solid_button_labels": "#ffffff",
+    "colors_accent_1": "#9d7b39",
+    "gradient_accent_1": "",
+    "colors_accent_2": "#dac6c3",
+    "gradient_accent_2": "",
+    "colors_text": "#121212",
+    "colors_outline_button_labels": "#121212",
+    "colors_background_1": "#ffffff",
+    "gradient_background_1": "",
+    "colors_background_2": "#f3f3f3",
+    "gradient_background_2": "",
+    "accent_icons": "outline-button",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -112,8 +112,6 @@
             "type": "announcement",
             "settings": {
               "text": "Get FREE Blending Sponge with every purchase (*while supplies last)",
-              "text_alignment": "center",
-              "color_scheme": "accent-2",
               "link": ""
             }
           },
@@ -122,8 +120,6 @@
             "disabled": true,
             "settings": {
               "text": "EXTENDED SHIPPING TIMES DUE TO ROYAL MAIL STRIKES - PLEASE ALLOW 4-5 EXTRA DAYS",
-              "text_alignment": "center",
-              "color_scheme": "inverse",
               "link": ""
             }
           }
@@ -156,7 +152,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Nanshy",
-              "menu": "nanshy"
+              "menu": "community"
             }
           },
           "footer-1": {
@@ -344,7 +340,6 @@
               "type": "announcement",
               "settings": {
                 "text": "Welcome to our store",
-                "color_scheme": "background-1",
                 "link": ""
               }
             }
