@@ -192,6 +192,147 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "c1e2fa8f-37a2-4678-a837-ad6cbfa84a04": {
+      "type": "collection-list",
+      "blocks": {
+        "template--21562497138881__c1e2fa8f-37a2-4678-a837-ad6cbfa84a04-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "brush-sets"
+          }
+        },
+        "template--21562497138881__c1e2fa8f-37a2-4678-a837-ad6cbfa84a04-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "makeup-brushes-face-makeup-brushes"
+          }
+        },
+        "template--21562497138881__c1e2fa8f-37a2-4678-a837-ad6cbfa84a04-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "makeup-brushes-eye-makeup-brushes"
+          }
+        }
+      },
+      "block_order": [
+        "template--21562497138881__c1e2fa8f-37a2-4678-a837-ad6cbfa84a04-featured_collection-1",
+        "template--21562497138881__c1e2fa8f-37a2-4678-a837-ad6cbfa84a04-featured_collection-2",
+        "template--21562497138881__c1e2fa8f-37a2-4678-a837-ad6cbfa84a04-featured_collection-3"
+      ],
+      "settings": {
+        "title": "Makeup Brush Collections",
+        "heading_size": "h2",
+        "image_ratio": "portrait",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "906eee2f-cc24-4859-9d5e-f67b2cd8b680": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21562497138881__906eee2f-cc24-4859-9d5e-f67b2cd8b680-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>How many brushes are in a makeup brush set?<\/h2><p>Depending on the type of a makeup brush sets, it could be anything from 3 best makeup brushes individually packed up to 30 different ones including a storage such us a cosmetic bag. The makeup brush collection usually comes with concealer brush, small fluffy brush, rounded fluffy brush, all over eyeshadow brush, blending brush, lip brush, fan brush, blusher brush<\/p><h2>The #1 best makeup brushes trusted by Celebrity Makeup Artists<\/h2><p>Nanshy is proud to be the quality make up brush brand used by some of the top celebrity makeup artists. From mastering a smoky eye look to keeping that red carpet shine, our tools will help you achieve any look you want. Professional makeup artists around the world have been creating makeup looks using our ultra soft synthetic bristles since 2012. We offer a 100% satisfaction guarantee and free shipping on orders over £20 within the UK.<\/p><h2>Get the best brushes for you and your clients<\/h2><p>We understand that as a professional makeup artist, you need the best tools for the job. That’s why we offer an extensive range of high-quality brushes that are perfect for any makeup look.<\/p><h3>The very best makeup brushes and makeup brush sets to buff and blend your products to perfection<\/h3><p>Makeup is a craft and your face is a canvas, your brushes will do the work. Investing in top-quality makeup brushes is a must in order to achieve the flawless finish we all desire.<\/p><h2>What are makeup brushes made of?<\/h2><p>Makeup brushes are commonly made from all sorts of different animals. Some, like the mink and sable ones in this example can be bought with fur attached!<br\/>Here at Nanshy we pride ourselves for using Vegan bristles – Nylon, Synthetic fibers that mimic and outperform animal hair and are super soft. This also makes us Vegan & Cruelty Free. Find out more benefits of using <a href=\"https:\/\/nanshy.com\/advantages-synthetic-brushes-vs-natural\/\">synthetic brushes<\/a>.<\/p><h2>What are the best makeup brushes for beginners?<\/h2><p>There are many make up brushes available in the market. It is not easy to choose the best ones for beginners.<\/p><p>There are a few factors that can help you decide which makeup brushes to buy for your beginner kit. These include the type of brush, its shape, and its size.<\/p><p>You should make sure that your brush has soft bristles and is easy to hold. You will also need a few different types of brushes in your kit such as foundation, blush, eye shadow and eye liner brushes.<\/p><h2>Best places to buy cheap make up brushes<\/h2><p>You can purchase your next beauty tools directly from our <a href=\"https:\/\/nanshy.com\/shop\/\">online shop<\/a> or you can shop them at these fine online retailers:<\/p><p><a href=\"https:\/\/www.beautybay.com\/l\/nanshy\/\">https:\/\/www.beautybay.com\/l\/nanshy\/<\/a><\/p><p><a href=\"https:\/\/www.lookfantastic.com\/brands\/nanshy\/view-all.list\">https:\/\/www.lookfantastic.com\/brands\/nanshy\/view-all.list<\/a><\/p><h2>What are other makeup brush brands?<\/h2><p>Apart from Nanshy you can check out other popular makeup brush bands such as Bare Minerals, Real Techniques, Spectrum, Morphe, Zoeva, NYX Professional Makeup, Anastasia Beverly Hills, Laura Mercier, Iconic London, Sonia Kashuk, Lottie London, Lime Crime, Charlotte Tilbury and others. In fact we have prepared a full list of <a href=\"https:\/\/nanshy.com\/makeup-brushes-brand-names\/\">makeup brush brand names<\/a> along with a poll you can take a part in.<\/p><h2>What is the best way to clean makeup brushes?<\/h2><p>Washing your brushes on a regular basis may seem daunting if you’ve never done it before, but it’s actually quite simple. Once you make it a part of your regular routine, you will wonder why you never did so before. To start, you’ll need to find an appropriate soap. <a href=\"https:\/\/nanshy.com\/the-importance-of-cleaning-your-make-up-brushes\/\">Read more here<\/a><\/p><h2>What are some other things that make a good make-up brush?<\/h2><h3>Brush Head<\/h3><p>Consist of a bristles (natural hair or synthetic bristles) and ferrule (the silver part). Best brush is densely packed with a perfect shape.<\/p><h3>Brush Handle<\/h3><p>Usually made from wood. Painted for an elegance appearance and waterproofing. Our weighted handles are designed & tested by makeup artists to<\/p>"
+          }
+        },
+        "df90b66b-6a2f-4c7f-bdf3-e56c5ac1f82b": {
+          "type": "caption",
+          "settings": {
+            "caption": "Makeup brushes are a must-have for any beauty lover. This is because they allow you to apply the makeup more delicately and precisely, which in turn provides better coverage and can make your skin look healthier and younger! But did you know that there’s also such thing as “too many” makeup brushes? We don’t think so!You might find yourself feeling overwhelmed or confused by all of the options available if this happens to be your first foray into brush shopping. We recommend checking out our list of favourites for some guidance on what kind of types work best with different products so you don’t have to worry about going overboard when trying new ones.",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "template--21562497138881__906eee2f-cc24-4859-9d5e-f67b2cd8b680-text-1",
+        "df90b66b-6a2f-4c7f-bdf3-e56c5ac1f82b"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "099d013b-2427-488a-8488-d033a6e8196d": {
+      "type": "featured-product",
+      "blocks": {
+        "template--21562497138881__099d013b-2427-488a-8488-d033a6e8196d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--21562497138881__099d013b-2427-488a-8488-d033a6e8196d-title-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--21562497138881__099d013b-2427-488a-8488-d033a6e8196d-price-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--21562497138881__099d013b-2427-488a-8488-d033a6e8196d-variant_picker-1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--21562497138881__099d013b-2427-488a-8488-d033a6e8196d-quantity_selector-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--21562497138881__099d013b-2427-488a-8488-d033a6e8196d-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "template--21562497138881__099d013b-2427-488a-8488-d033a6e8196d-share-1": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--21562497138881__099d013b-2427-488a-8488-d033a6e8196d-text-1",
+        "template--21562497138881__099d013b-2427-488a-8488-d033a6e8196d-title-1",
+        "template--21562497138881__099d013b-2427-488a-8488-d033a6e8196d-price-1",
+        "template--21562497138881__099d013b-2427-488a-8488-d033a6e8196d-variant_picker-1",
+        "template--21562497138881__099d013b-2427-488a-8488-d033a6e8196d-quantity_selector-1",
+        "template--21562497138881__099d013b-2427-488a-8488-d033a6e8196d-buy_buttons-1",
+        "template--21562497138881__099d013b-2427-488a-8488-d033a6e8196d-share-1"
+      ],
+      "settings": {
+        "product": "flawless-foundation",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -201,6 +342,9 @@
     "8ebad725-142f-4f43-8cf0-1bbfe20ce766",
     "9c11a535-f3c8-43a6-b9cc-cb3b18ec005d",
     "32479e2a-6e3a-42f1-b961-97e5c03e6103",
-    "ca51292d-d859-48cc-b472-48b3fa24b1a1"
+    "ca51292d-d859-48cc-b472-48b3fa24b1a1",
+    "c1e2fa8f-37a2-4678-a837-ad6cbfa84a04",
+    "906eee2f-cc24-4859-9d5e-f67b2cd8b680",
+    "099d013b-2427-488a-8488-d033a6e8196d"
   ]
 }
