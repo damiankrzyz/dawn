@@ -1,5 +1,51 @@
 {
   "sections": {
+    "e3b4f9d3-9747-48ef-be6a-1be788163b65": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21575137919169__e3b4f9d3-9747-48ef-be6a-1be788163b65-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Ethos",
+            "heading_size": "h1"
+          }
+        },
+        "template--21575137919169__e3b4f9d3-9747-48ef-be6a-1be788163b65-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Nanshy, we're not just different; we're pioneering. We passionately believe in crafting beauty tools that not only elevate your look but also match the integrity of your values.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--21575137919169__e3b4f9d3-9747-48ef-be6a-1be788163b65-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "template--21575137919169__e3b4f9d3-9747-48ef-be6a-1be788163b65-heading-1",
+        "template--21575137919169__e3b4f9d3-9747-48ef-be6a-1be788163b65-text-1",
+        "template--21575137919169__e3b4f9d3-9747-48ef-be6a-1be788163b65-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/nanshy-ethos.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "accent-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "right",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -9,6 +55,7 @@
     }
   },
   "order": [
+    "e3b4f9d3-9747-48ef-be6a-1be788163b65",
     "main"
   ]
 }
