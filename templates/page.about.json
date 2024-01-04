@@ -52,10 +52,33 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "870e0d8e-7817-416b-8f83-ec35ec3ace28": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21575137919169__870e0d8e-7817-416b-8f83-ec35ec3ace28-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Our Story<\/h2><p>Nanshy's vision is rooted in the belief that beauty enhancement should be accessible, responsible, and above all, cruelty-free. Qualities you treasure in life - compassion, value, and quality - are embedded in every Nanshy creation.<\/p><p>Amidst a crowded marketplace, we found our calling not by shouting the loudest, but by listening the most attentively. We grew to understand that the quest for beauty is more than skin deep; it's a journey towards empowerment and self-confidence, artfully achieved through skilled application and superior tools.<\/p><p>Thus, our focus became crystal clear: to design and deliver makeup application tools that stand apart - impeccable in performance, ethical at heart. The promise of Nanshy is to offer professional-grade accessories that impart a seamless blend of aesthetics and ethics.<\/p><h2>Commitment to Excellence<\/h2><p>Every brush stroke is a commitment to ethical beauty. At Nanshy, we've discarded fleeting trends and hollow claims, choosing instead to forge partnerships with manufacturers who share our stringent standards of ethical excellence. Synthetic, cruelty-free bristles, carefully hand-assembled, ensure that no animal is harmed while you craft your look with precision and care.<\/p><p>Service quality, to us, is not just a benchmark but a continuous endeavour. With each meticulously researched and tenderly designed product, we aim not just to meet but to surpass your expectations, offering enduring performance and ensuring that every investment you make in Nanshy is one of both conscience and quality.<\/p><h2>Why Choose Nanshy<\/h2><p>By aligning luxury with accessibility, we extend an invitation to experience premium beauty without compromise. Nanshy represents not just a brand, but a lifestyle choice for those who seek quality, value, and integrity, seamlessly woven together.<\/p><p>Embrace excellence in beauty and stand with us in our mission. Choose Nanshy for a look that speaks volumes, for service that delights, and for a commitment to a more beautiful world – both in aesthetic and in principle.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21575137919169__870e0d8e-7817-416b-8f83-ec35ec3ace28-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "e3b4f9d3-9747-48ef-be6a-1be788163b65",
-    "main"
+    "main",
+    "870e0d8e-7817-416b-8f83-ec35ec3ace28"
   ]
 }
