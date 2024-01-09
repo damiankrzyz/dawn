@@ -1,0 +1,26 @@
+{
+  "sections": {
+    "collabs": {
+      "type": "apps",
+      "blocks": {
+        "af5d3c80-0153-4830-b51b-54e4e68cee47": {
+          "type": "shopify:\/\/apps\/collabs\/blocks\/application-page\/54758706-9f25-4fa9-a553-64720a4c998b",
+          "settings": {
+            "heading": "Become an ambassador",
+            "button_text": "Apply now",
+            "button_background_color": "#9d7b39",
+            "button_label_color": "#FFFFFF"
+          }
+        }
+      },
+      "block_order": [
+        "af5d3c80-0153-4830-b51b-54e4e68cee47"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "collabs"
+  ]
+}
