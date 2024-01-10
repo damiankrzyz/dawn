@@ -36,9 +36,19 @@
       ],
       "settings": {
       }
+    },
+    "custom_liquid_q8rAPn": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script type=\"text\/javascript\">\n  (function (d) {\n    var f = d.getElementsByTagName('SCRIPT')[0],\n      p = d.createElement('SCRIPT');\n    p.type = 'text\/javascript';\n    p.async = true;\n    p.src = '\/\/assets.pinterest.com\/js\/pinit.js';\n    f.parentNode.insertBefore(p, f);\n  })(document);\n<\/script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_liquid_q8rAPn"
   ]
 }
