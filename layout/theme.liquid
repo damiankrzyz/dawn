@@ -338,5 +338,10 @@
       ></iframe
     ></noscript>
     <!-- End Google Tag Manager (noscript) -->
+    {% if template contains 'blog' %}
+    <!-- noindex this page if the template contains "no-index" in the name -->
+     <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
+    {% endif %}
+   
   </body>
 </html>
