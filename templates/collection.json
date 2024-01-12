@@ -32,7 +32,7 @@
         "heading": "",
         "heading_size": "h2",
         "heading_alignment": "left",
-        "layout": "row",
+        "layout": "none",
         "color_scheme": "background-1",
         "container_color_scheme": "background-1",
         "open_first_collapsible_row": false,
