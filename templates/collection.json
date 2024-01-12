@@ -27,6 +27,9 @@
       "block_order": [
         "collapsible_row_QMtRer"
       ],
+      "custom_css": [
+        ".collapsible-content-wrapper-narrow {max-width: 100%;}"
+      ],
       "settings": {
         "caption": "",
         "heading": "",
