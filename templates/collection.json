@@ -14,9 +14,9 @@
         "collapsible_row_QMtRer": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Find out more",
-            "icon": "none",
-            "row_content": "<p>{{ block.settings.page.metafields.custom.collection_landing_text | metafield_tag }}{{ collection.metafields.custom.collection_description | metafield_tag }}<\/p>",
+            "heading": "Why choose {{ collection.title }} from Nanshy?",
+            "icon": "chat_bubble",
+            "row_content": "<p>{{ collection.metafields.custom.collection_description | metafield_tag }}<\/p>",
             "page": ""
           }
         }
