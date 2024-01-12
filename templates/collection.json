@@ -16,7 +16,7 @@
           "settings": {
             "heading": "Why choose {{ collection.title }} from Nanshy?",
             "icon": "chat_bubble",
-            "row_content": "<p>{{ collection.metafields.custom.collection_description | metafield_tag }}<\/p>",
+            "row_content": "{{ collection.metafields.custom.collection_text_rich | metafield_tag }}",
             "page": ""
           }
         }
