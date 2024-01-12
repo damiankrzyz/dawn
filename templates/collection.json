@@ -16,7 +16,7 @@
           "settings": {
             "heading": "Find out more",
             "icon": "none",
-            "row_content": "<p>{{ block.settings.page.metafields.custom.collection_landing_text | metafield_tag }}<\/p>",
+            "row_content": "<p>{{ block.settings.page.metafields.custom.collection_landing_text | metafield_tag }}{{ collection.metafields.custom.collection_description | metafield_tag }}<\/p>",
             "page": ""
           }
         }
