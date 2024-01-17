@@ -1,5 +1,14 @@
 {
   "sections": {
+    "custom_liquid_wJjH4F": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe src=\"https:\/\/formless.ai\/c\/URsMPRLL6BZj\" class=\"formless-embed\" width=\"100%\" height=\"600px\" loading=\"lazy\" allow=\"microphone\" style=\"border: 0; display: block\"><\/iframe>\n\n<script src=\"https:\/\/embed.formless.ai\/embed.js\" async><\/script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -36,6 +45,7 @@
         "text",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Best_Sellers.jpg",
         "image_overlay_opacity": 0,
@@ -281,6 +291,7 @@
     }
   },
   "order": [
+    "custom_liquid_wJjH4F",
     "image_banner",
     "a2daf1dd-ee50-43aa-bb45-dee73ff5fd7f",
     "featured_collection",
