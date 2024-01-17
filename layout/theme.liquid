@@ -1,9 +1,9 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
-        {% if template.suffix contains 'noindex' %}
-    <!-- noindex this page if the template contains "no-index" in the name -->
-    <meta name = "robots" content = "noindex">
+    {% if template.suffix contains 'noindex' %}
+      <!-- noindex this page if the template contains "no-index" in the name -->
+      <meta name="robots" content="noindex">
     {% endif %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -35,10 +35,13 @@
     {%- if settings.animations_reveal_on_scroll -%}
       <script src="{{ 'animations.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-<script type="text/javascript">
-(function e(){var e=document.createElement("script");e.type="text/javascript",e.async=true,e.src="//staticw2.yotpo.com/pFBxGeykOZnIm5kZc6mrwFICy0KxLOFfNchaAbmU/widget.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})();
-</script>
-    <script src="https://cdn-widgetsrepository.yotpo.com/v1/loader/pFBxGeykOZnIm5kZc6mrwFICy0KxLOFfNchaAbmU?languageCode={{ localization.language.iso_code | escape }}"  async></script>
+    <script type="text/javascript">
+      (function e(){var e=document.createElement("script");e.type="text/javascript",e.async=true,e.src="//staticw2.yotpo.com/pFBxGeykOZnIm5kZc6mrwFICy0KxLOFfNchaAbmU/widget.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})();
+    </script>
+    <script
+      src="https://cdn-widgetsrepository.yotpo.com/v1/loader/pFBxGeykOZnIm5kZc6mrwFICy0KxLOFfNchaAbmU?languageCode={{ localization.language.iso_code | escape }}"
+      async
+    ></script>
     {{ content_for_header }}
 
     <style>
@@ -342,9 +345,24 @@
     ></noscript>
     <!-- End Google Tag Manager (noscript) -->
     {% if template contains 'article' %}
-    <!-- noindex this page if the template contains "no-index" in the name -->
-     <script type="text/javascript" data-pin-hover="true" async defer src="//assets.pinterest.com/js/pinit.js"></script>
+      <!-- noindex this page if the template contains "no-index" in the name -->
+      <script
+        type="text/javascript"
+        data-pin-hover="true"
+        async
+        defer
+        src="//assets.pinterest.com/js/pinit.js"
+      ></script>
     {% endif %}
-   
+    <script
+      id="formless_embed"
+      src="https://embed.formless.ai/embed.js"
+      async=""
+      data-type="trigger"
+      data-trigger-type="banner"
+      data-trigger-title="Discover Your Ideal Makeup Brush"
+      data-trigger-subtitle="Unlock the perfect makeup routine with our 4-question magic quiz!"
+      data-conversation-id="URsMPRLL6BZj"
+    ></script>
   </body>
 </html>
