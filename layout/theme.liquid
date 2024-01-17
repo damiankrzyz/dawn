@@ -365,8 +365,14 @@
       data-conversation-id="URsMPRLL6BZj"
     ></script>
     <style>
-            iframe.formless-embed.formless-embed-popover {
-          z-index: 999999999;
+      @media only screen and (max-width: 600px) {
+                  iframe.formless-embed.formless-embed-popover {
+                z-index: 9999999992!important;
+            }
+            button.formless-trigger.formless-trigger-banner {
+            margin-bottom: 75px;
+          z-index: 9999999991!important;
+      }
       }
     </style>
   </body>
