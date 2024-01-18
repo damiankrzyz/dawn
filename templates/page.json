@@ -6,9 +6,54 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "newsletter_AhxQLF": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_fUebmX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_H7HpW3": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "email_form_zyWjcC": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_fUebmX",
+        "paragraph_H7HpW3",
+        "email_form_zyWjcC"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_NrRteN": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<input type=\"text\" value=\"{% if customer %}{{ customer.name }}{% endif %}\" .... >\n<input type=\"email\" value=\"{% if customer %}{{ customer.email }}{% endif %}\" .... >",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "newsletter_AhxQLF",
+    "custom_liquid_NrRteN"
   ]
 }
