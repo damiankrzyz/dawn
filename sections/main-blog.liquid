@@ -21,8 +21,12 @@
     <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
       {{ blog.title | escape }}
     </h1>
-
-    <aside>
+    <style>
+        aside.blog-tags a {
+          color: inherit;
+      }
+    </style>
+    <aside class="blog-tags">
       <ul class="list-menu">
         {%- for tag in blog.all_tags -%}
           <li class="list-menu--inline">
