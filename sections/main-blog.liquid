@@ -25,10 +25,10 @@
     <aside>
       <ul class="list-menu">
         {%- for tag in blog.all_tags -%}
-          <li>
+          <li class="list-menu--inline">
             <a href="{{ blog.url }}/tagged/{{ tag | handle }}">{{ tag }}</a>
           </li>
-          {%- unless forloop.last %} {% endunless %}
+          {%- unless forloop.last %} | {% endunless %}
         {%- endfor -%}
       </ul>
     </aside>
