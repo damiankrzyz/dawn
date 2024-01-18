@@ -24,12 +24,12 @@
 
     <aside>
       <ul class="list-unstyled">
-        <li>
-          {%- for tag in blog.all_tags -%}
+        {%- for tag in blog.all_tags -%}
+          <li>
             <a href="{{ blog.url }}/tagged/{{ tag | handle }}">{{ tag }}</a>
-            {%- unless forloop.last %}, {% endunless %}
-          {%- endfor -%}
-        </li>
+          </li>
+          {%- unless forloop.last %}, {% endunless %}
+        {%- endfor -%}
       </ul>
     </aside>
 
