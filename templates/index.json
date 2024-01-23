@@ -60,6 +60,9 @@
         "heading_UBT87Q",
         "text_m9pLFR"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "desktop_content_position": "right",
         "content_alignment": "right",
@@ -83,6 +86,36 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "image_with_text_mBEQMR": {
+      "type": "image-with-text",
+      "blocks": {
+        "button_kcrBMh": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/products\/flawless-foundation",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "button_kcrBMh"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Foundation_Brush.jpg",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "right",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "right",
+        "padding_top": 32,
+        "padding_bottom": 36
       }
     },
     "a2daf1dd-ee50-43aa-bb45-dee73ff5fd7f": {
@@ -319,6 +352,7 @@
     "image_banner",
     "rich_text_bp6fAT",
     "image_banner_ceFmXH",
+    "image_with_text_mBEQMR",
     "a2daf1dd-ee50-43aa-bb45-dee73ff5fd7f",
     "featured_collection",
     "rich_text",
