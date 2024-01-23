@@ -93,7 +93,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Foundation_Brush.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
