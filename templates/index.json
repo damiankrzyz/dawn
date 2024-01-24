@@ -137,12 +137,12 @@
     "a2daf1dd-ee50-43aa-bb45-dee73ff5fd7f": {
       "type": "featured-collection",
       "settings": {
-        "title": "Shop Bestsellers",
+        "title": "Shop Bestselling Bags",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "best-sellers",
+        "collection": "makeup-bags-amp-storage",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -170,7 +170,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "brush-sets",
+        "collection": "skin-care",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
