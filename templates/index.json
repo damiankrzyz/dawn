@@ -294,7 +294,7 @@
         "7e7b33a4-516f-42be-acc5-51d39a000069": {
           "type": "video",
           "settings": {
-            "cover_image": "shopify:\/\/shop_images\/face-rolller.png",
+            "cover_image": "shopify:\/\/shop_images\/skin-care.jpg",
             "video_url": "https:\/\/www.youtube.com\/watch?v=42NdRSeCk7o",
             "description": "FACE ROLLER"
           }
@@ -362,6 +362,45 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "collage_aXeDyH": {
+      "type": "collage",
+      "blocks": {
+        "image_VP3aqr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brush_care.jpg"
+          }
+        },
+        "product_xaiFNJ": {
+          "type": "product",
+          "settings": {
+            "product": "makeup-brush-sponge-cleaning-soap",
+            "second_image": false
+          }
+        },
+        "collection_GBx8nH": {
+          "type": "collection",
+          "settings": {
+            "collection": "brush-care"
+          }
+        }
+      },
+      "block_order": [
+        "image_VP3aqr",
+        "product_xaiFNJ",
+        "collection_GBx8nH"
+      ],
+      "settings": {
+        "heading": "Brush Care",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -375,6 +414,7 @@
     "video",
     "multicolumn",
     "collage",
-    "e9ac7e06-f803-4361-9597-2af27f4013fa"
+    "e9ac7e06-f803-4361-9597-2af27f4013fa",
+    "collage_aXeDyH"
   ]
 }
