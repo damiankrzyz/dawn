@@ -13,28 +13,10 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
-        },
-        "heading": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
-        "buttons_wtazpV",
-        "heading",
-        "text"
+        "buttons_wtazpV"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/makeup-brushes-nanshy.jpg",
@@ -48,6 +30,68 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "image_banner_zCF9Em": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Vegan-and-cruelty-free.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "top-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_with_text_xeLmFf": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_gzkgFy": {
+          "type": "heading",
+          "settings": {
+            "heading": "Best Seller",
+            "heading_size": "h2"
+          }
+        },
+        "text_LJwhgQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>No 1 Foundation Brush<\/strong><\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_yHYX3T": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/products\/flawless-foundation",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_gzkgFy",
+        "text_LJwhgQ",
+        "button_yHYX3T"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Flawless-foundation.jpg",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 32,
+        "padding_bottom": 0
       }
     },
     "rich_text": {
@@ -128,52 +172,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
-      }
-    },
-    "image_with_text_xeLmFf": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_gzkgFy": {
-          "type": "heading",
-          "settings": {
-            "heading": "Best Seller",
-            "heading_size": "h2"
-          }
-        },
-        "text_LJwhgQ": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>No 1 Foundation Brush<\/strong><\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_yHYX3T": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop Now",
-            "button_link": "shopify:\/\/products\/flawless-foundation",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_gzkgFy",
-        "text_LJwhgQ",
-        "button_yHYX3T"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Flawless-foundation.jpg",
-        "height": "adapt",
-        "desktop_image_width": "large",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "overlap",
-        "color_scheme": "background-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 32,
-        "padding_bottom": 0
       }
     },
     "multicolumn": {
@@ -445,10 +443,11 @@
   },
   "order": [
     "image_banner",
+    "image_banner_zCF9Em",
+    "image_with_text_xeLmFf",
     "rich_text",
     "rich_text_bp6fAT",
     "image_banner_ceFmXH",
-    "image_with_text_xeLmFf",
     "multicolumn",
     "featured_collection_Wd4X9T",
     "a2daf1dd-ee50-43aa-bb45-dee73ff5fd7f",
