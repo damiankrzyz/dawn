@@ -19,10 +19,10 @@
         "buttons_wtazpV"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/makeup-brushes-nanshy.jpg",
+        "image": "shopify:\/\/shop_images\/makeup-brushes-nanshy_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "accent-2",
