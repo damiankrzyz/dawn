@@ -362,45 +362,6 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "collage_AMcqAP": {
-      "type": "collage",
-      "blocks": {
-        "image_hMft7X": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/brush-holder_f50cfd79-cfa1-43b7-8512-2ab10552f97e.jpg"
-          }
-        },
-        "product_iCMAUN": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection_kk9bxy": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_hMft7X",
-        "product_iCMAUN",
-        "collection_kk9bxy"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -414,7 +375,6 @@
     "video",
     "multicolumn",
     "collage",
-    "e9ac7e06-f803-4361-9597-2af27f4013fa",
-    "collage_AMcqAP"
+    "e9ac7e06-f803-4361-9597-2af27f4013fa"
   ]
 }
