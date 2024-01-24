@@ -165,12 +165,12 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Brush Sets",
+        "title": "Makeup Sponges",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "skin-care",
+        "collection": "makeup-sponges",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
