@@ -38,6 +38,52 @@
         "show_text_below": false
       }
     },
+    "image_with_text_xeLmFf": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_gzkgFy": {
+          "type": "heading",
+          "settings": {
+            "heading": "Flawless Foundation",
+            "heading_size": "h2"
+          }
+        },
+        "text_LJwhgQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>No 1 Foundation Brush<\/strong><\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_yHYX3T": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_gzkgFy",
+        "text_LJwhgQ",
+        "button_yHYX3T"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Flawless-foundation-brush.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_bp6fAT": {
       "type": "rich-text",
       "blocks": {
@@ -320,6 +366,7 @@
   },
   "order": [
     "image_banner",
+    "image_with_text_xeLmFf",
     "rich_text_bp6fAT",
     "image_banner_ceFmXH",
     "a2daf1dd-ee50-43aa-bb45-dee73ff5fd7f",
