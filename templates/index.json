@@ -32,22 +32,6 @@
         "show_text_below": false
       }
     },
-    "image_banner_zCF9Em": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Vegan-and-cruelty-free.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "top-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "image_with_text_xeLmFf": {
       "type": "image-with-text",
       "blocks": {
@@ -92,6 +76,22 @@
         "mobile_content_alignment": "left",
         "padding_top": 32,
         "padding_bottom": 0
+      }
+    },
+    "image_banner_zCF9Em": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Vegan-and-cruelty-free.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "top-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "rich_text": {
@@ -443,8 +443,8 @@
   },
   "order": [
     "image_banner",
-    "image_banner_zCF9Em",
     "image_with_text_xeLmFf",
+    "image_banner_zCF9Em",
     "rich_text",
     "rich_text_bp6fAT",
     "image_banner_ceFmXH",
