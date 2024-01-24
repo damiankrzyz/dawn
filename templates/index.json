@@ -50,6 +50,38 @@
         "show_text_below": false
       }
     },
+    "image_banner_7TQhFr": {
+      "type": "image-banner",
+      "blocks": {
+        "buttons_DJAEfj": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "buttons_DJAEfj"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/flawless-makeup_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "image_with_text_xeLmFf": {
       "type": "image-with-text",
       "blocks": {
@@ -71,7 +103,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop Now",
-            "button_link": "",
+            "button_link": "shopify:\/\/products\/flawless-foundation",
             "button_style_secondary": false
           }
         }
@@ -84,7 +116,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Flawless-foundation.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "large",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
@@ -417,6 +449,7 @@
   },
   "order": [
     "image_banner",
+    "image_banner_7TQhFr",
     "image_with_text_xeLmFf",
     "rich_text_bp6fAT",
     "image_banner_ceFmXH",
