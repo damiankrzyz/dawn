@@ -72,7 +72,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Flawless-foundation-brush.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "large",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
@@ -81,7 +81,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "rich_text_bp6fAT": {
