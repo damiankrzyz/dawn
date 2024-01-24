@@ -7,8 +7,8 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
+            "button_link_1": "shopify:\/\/collections\/makeup-brushes",
+            "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -72,7 +72,7 @@
           "settings": {
             "button_label": "Shop Now",
             "button_link": "",
-            "button_style_secondary": true
+            "button_style_secondary": false
           }
         }
       },
