@@ -142,6 +142,59 @@
         "padding_bottom": 0
       }
     },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "title": "Fabulous Brushes",
+            "text": "<p><\/p><p>⭐⭐⭐⭐⭐<\/p><p>Not only are these brushes amazing to use, but I accidentally ordered the wrong brush, I called the next morning to see if I could exchange before the order was sent out and the customer service was excellent, very helpful and friendly 😊 Definitely recommend 👌🏼<\/p><p>Michelle R.<\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "title": "awesome brush",
+            "text": "<p>⭐⭐⭐⭐⭐<\/p><p>Ive been using this brush to apply my foundation for a few months now and i have to say the finish is flawless. One of the best brushes i have come across it certainly gives the more expensive brands a run for their money!<\/p><p>Dina<\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "title": "Amazing brush!",
+            "text": "<p>⭐⭐⭐⭐⭐<br\/>First brush I have purchased from Nanshy and it is so good!Best application of foundation I've had, move over Bobbi Brown 😊<\/p><p>Mandy H.<\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "title": "Don't just take our word for it",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Product ratings from over 500 verified customers",
+        "button_link": "shopify:\/\/pages\/faq",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "rich_text_bp6fAT": {
       "type": "rich-text",
       "blocks": {
@@ -273,108 +326,6 @@
         "padding_bottom": 36
       }
     },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "About Nanshy",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=xU1pwQpfa_8",
-        "cover_image": "shopify:\/\/shop_images\/nanshy-video.jpg",
-        "description": "About Nanshy",
-        "full_width": false,
-        "color_scheme": "background-2",
-        "padding_top": 12,
-        "padding_bottom": 12
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Fabulous Brushes",
-            "text": "<p><\/p><p>⭐⭐⭐⭐⭐<\/p><p>Not only are these brushes amazing to use, but I accidentally ordered the wrong brush, I called the next morning to see if I could exchange before the order was sent out and the customer service was excellent, very helpful and friendly 😊 Definitely recommend 👌🏼<\/p><p>Michelle R.<\/p><p><\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "awesome brush",
-            "text": "<p>⭐⭐⭐⭐⭐<\/p><p>Ive been using this brush to apply my foundation for a few months now and i have to say the finish is flawless. One of the best brushes i have come across it certainly gives the more expensive brands a run for their money!<\/p><p>Dina<\/p><p><\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Amazing brush!",
-            "text": "<p>⭐⭐⭐⭐⭐<br\/>First brush I have purchased from Nanshy and it is so good!Best application of foundation I've had, move over Bobbi Brown 😊<\/p><p>Mandy H.<\/p><p><\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "Don't just take our word for it",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "Product ratings from over 500 verified customers",
-        "button_link": "shopify:\/\/pages\/faq",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
-    "e9ac7e06-f803-4361-9597-2af27f4013fa": {
-      "type": "newsletter",
-      "blocks": {
-        "template--15986780930241__e9ac7e06-f803-4361-9597-2af27f4013fa-16788960046318c80d-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Subscribe to our emails",
-            "heading_size": "h1"
-          }
-        },
-        "template--15986780930241__e9ac7e06-f803-4361-9597-2af27f4013fa-16788960046318c80d-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
-          }
-        },
-        "template--15986780930241__e9ac7e06-f803-4361-9597-2af27f4013fa-16788960046318c80d-2": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--15986780930241__e9ac7e06-f803-4361-9597-2af27f4013fa-16788960046318c80d-0",
-        "template--15986780930241__e9ac7e06-f803-4361-9597-2af27f4013fa-16788960046318c80d-1",
-        "template--15986780930241__e9ac7e06-f803-4361-9597-2af27f4013fa-16788960046318c80d-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "collage_aXeDyH": {
       "type": "collage",
       "blocks": {
@@ -413,6 +364,55 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "video": {
+      "type": "video",
+      "settings": {
+        "heading": "About Nanshy",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=xU1pwQpfa_8",
+        "cover_image": "shopify:\/\/shop_images\/nanshy-video.jpg",
+        "description": "About Nanshy",
+        "full_width": false,
+        "color_scheme": "background-2",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "e9ac7e06-f803-4361-9597-2af27f4013fa": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15986780930241__e9ac7e06-f803-4361-9597-2af27f4013fa-16788960046318c80d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "template--15986780930241__e9ac7e06-f803-4361-9597-2af27f4013fa-16788960046318c80d-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "template--15986780930241__e9ac7e06-f803-4361-9597-2af27f4013fa-16788960046318c80d-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--15986780930241__e9ac7e06-f803-4361-9597-2af27f4013fa-16788960046318c80d-0",
+        "template--15986780930241__e9ac7e06-f803-4361-9597-2af27f4013fa-16788960046318c80d-1",
+        "template--15986780930241__e9ac7e06-f803-4361-9597-2af27f4013fa-16788960046318c80d-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -420,13 +420,13 @@
     "rich_text",
     "image_banner_ceFmXH",
     "image_with_text_xeLmFf",
+    "multicolumn",
     "rich_text_bp6fAT",
     "a2daf1dd-ee50-43aa-bb45-dee73ff5fd7f",
     "featured_collection",
     "collage",
+    "collage_aXeDyH",
     "video",
-    "multicolumn",
-    "e9ac7e06-f803-4361-9597-2af27f4013fa",
-    "collage_aXeDyH"
+    "e9ac7e06-f803-4361-9597-2af27f4013fa"
   ]
 }
