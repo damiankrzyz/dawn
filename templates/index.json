@@ -44,7 +44,7 @@
         "heading_gzkgFy": {
           "type": "heading",
           "settings": {
-            "heading": "Flawless Foundation",
+            "heading": "Best Seller",
             "heading_size": "h2"
           }
         },
@@ -70,13 +70,13 @@
         "button_yHYX3T"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Flawless-foundation-brush.jpg",
+        "image": "shopify:\/\/shop_images\/Flawless-foundation.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
-        "content_layout": "overlap",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
