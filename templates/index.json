@@ -25,7 +25,7 @@
         "text"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/makeup-brushes_2.jpg",
+        "image": "shopify:\/\/shop_images\/makeup-brushes_3.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -72,7 +72,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Flawless-foundation-brush.jpg",
         "height": "adapt",
-        "desktop_image_width": "large",
+        "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
