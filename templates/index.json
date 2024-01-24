@@ -78,6 +78,40 @@
         "padding_bottom": 0
       }
     },
+    "rich_text_bp6fAT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UBT87Q": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "as seen in...",
+            "heading_size": "h2"
+          }
+        },
+        "text_m9pLFR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>as seen in...<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UBT87Q",
+        "text_m9pLFR"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "desktop_content_position": "right",
+        "content_alignment": "right",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
     "image_banner_ceFmXH": {
       "type": "image-banner",
       "settings": {
@@ -196,38 +230,43 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_bp6fAT": {
-      "type": "rich-text",
+    "collage_aXeDyH": {
+      "type": "collage",
       "blocks": {
-        "heading_UBT87Q": {
-          "type": "heading",
-          "disabled": true,
+        "image_VP3aqr": {
+          "type": "image",
           "settings": {
-            "heading": "as seen in...",
-            "heading_size": "h2"
+            "image": "shopify:\/\/shop_images\/brush_care.jpg"
           }
         },
-        "text_m9pLFR": {
-          "type": "text",
+        "product_xaiFNJ": {
+          "type": "product",
           "settings": {
-            "text": "<p>as seen in...<\/p>"
+            "product": "makeup-brush-sponge-cleaning-soap",
+            "second_image": false
+          }
+        },
+        "collection_GBx8nH": {
+          "type": "collection",
+          "settings": {
+            "collection": "brush-care"
           }
         }
       },
       "block_order": [
-        "heading_UBT87Q",
-        "text_m9pLFR"
-      ],
-      "custom_css": [
-
+        "image_VP3aqr",
+        "product_xaiFNJ",
+        "collection_GBx8nH"
       ],
       "settings": {
-        "desktop_content_position": "right",
-        "content_alignment": "right",
+        "heading": "Brush Care",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "none",
         "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 20,
-        "padding_bottom": 0
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "multicolumn": {
@@ -352,45 +391,6 @@
         "padding_bottom": 36
       }
     },
-    "collage_aXeDyH": {
-      "type": "collage",
-      "blocks": {
-        "image_VP3aqr": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/brush_care.jpg"
-          }
-        },
-        "product_xaiFNJ": {
-          "type": "product",
-          "settings": {
-            "product": "makeup-brush-sponge-cleaning-soap",
-            "second_image": false
-          }
-        },
-        "collection_GBx8nH": {
-          "type": "collection",
-          "settings": {
-            "collection": "brush-care"
-          }
-        }
-      },
-      "block_order": [
-        "image_VP3aqr",
-        "product_xaiFNJ",
-        "collection_GBx8nH"
-      ],
-      "settings": {
-        "heading": "Brush Care",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "none",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "video": {
       "type": "video",
       "settings": {
@@ -444,16 +444,16 @@
   "order": [
     "image_banner",
     "image_with_text_xeLmFf",
+    "rich_text_bp6fAT",
     "image_banner_ceFmXH",
     "featured_collection_Wd4X9T",
     "image_banner_zCF9Em",
     "rich_text",
     "a2daf1dd-ee50-43aa-bb45-dee73ff5fd7f",
-    "rich_text_bp6fAT",
+    "collage_aXeDyH",
     "multicolumn",
     "featured_collection",
     "collage",
-    "collage_aXeDyH",
     "video",
     "e9ac7e06-f803-4361-9597-2af27f4013fa"
   ]
