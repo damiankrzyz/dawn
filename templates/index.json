@@ -128,6 +128,73 @@
         "show_text_below": true
       }
     },
+    "multicolumn_MwXqkM": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_RMeanT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Masterful-collection-pearlescent-white.jpg",
+            "title": "Masterful Collection",
+            "text": "",
+            "link_label": "View",
+            "link": ""
+          }
+        },
+        "column_pYQJcP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EyeBrushSet.jpg",
+            "title": "The Eye Brush Set",
+            "text": "",
+            "link_label": "View",
+            "link": ""
+          }
+        },
+        "column_wCQKUK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GobsmackGlamorous_1.jpg",
+            "title": "Gobsmack Glamorous",
+            "text": "",
+            "link_label": "View",
+            "link": ""
+          }
+        },
+        "column_BRp7Ce": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Contour-brush-sets.jpg",
+            "title": "Contour Makeup Set",
+            "text": "",
+            "link_label": "View",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_RMeanT",
+        "column_pYQJcP",
+        "column_wCQKUK",
+        "column_BRp7Ce"
+      ],
+      "settings": {
+        "title": "Brush Sets",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "View All",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection_Wd4X9T": {
       "type": "featured-collection",
       "settings": {
@@ -446,6 +513,7 @@
     "image_with_text_xeLmFf",
     "rich_text_bp6fAT",
     "image_banner_ceFmXH",
+    "multicolumn_MwXqkM",
     "featured_collection_Wd4X9T",
     "image_banner_zCF9Em",
     "rich_text",
