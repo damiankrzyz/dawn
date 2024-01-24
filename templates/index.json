@@ -78,6 +78,50 @@
         "padding_bottom": 0
       }
     },
+    "image_banner_ceFmXH": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/featured_in.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "top-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "featured_collection_Wd4X9T": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Brush Sets",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "brush-sets",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_banner_zCF9Em": {
       "type": "image-banner",
       "settings": {
@@ -158,22 +202,6 @@
         "padding_bottom": 0
       }
     },
-    "image_banner_ceFmXH": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/featured_in.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "top-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -225,34 +253,6 @@
         "swipe_on_mobile": true,
         "padding_top": 20,
         "padding_bottom": 20
-      }
-    },
-    "featured_collection_Wd4X9T": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Brush Sets",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "brush-sets",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "a2daf1dd-ee50-43aa-bb45-dee73ff5fd7f": {
@@ -444,12 +444,12 @@
   "order": [
     "image_banner",
     "image_with_text_xeLmFf",
+    "image_banner_ceFmXH",
+    "featured_collection_Wd4X9T",
     "image_banner_zCF9Em",
     "rich_text",
     "rich_text_bp6fAT",
-    "image_banner_ceFmXH",
     "multicolumn",
-    "featured_collection_Wd4X9T",
     "a2daf1dd-ee50-43aa-bb45-dee73ff5fd7f",
     "featured_collection",
     "collage",
