@@ -9,7 +9,7 @@
           "type": "announcement",
           "settings": {
             "text": "Sale Now On (all prices marked down - no coupon codes)",
-            "link": ""
+            "link": "shopify:\/\/collections\/sale"
           }
         }
       },
