@@ -18,11 +18,44 @@
       "block_order": [
         "buttons_wtazpV"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/makeup-brushes-nanshy_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "image_banner_Q9EAMr": {
+      "type": "image-banner",
+      "blocks": {
+        "buttons_ybi7PL": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP SALE",
+            "button_link_1": "shopify:\/\/collections\/sale",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "buttons_ybi7PL"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/sale_60_off_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "accent-2",
@@ -482,6 +515,7 @@
   },
   "order": [
     "image_banner",
+    "image_banner_Q9EAMr",
     "image_with_text_xeLmFf",
     "rich_text_bp6fAT",
     "image_banner_ceFmXH",
