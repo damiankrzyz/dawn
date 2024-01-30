@@ -7,9 +7,8 @@
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "Get FREE Blending Sponge with every purchase (*while supplies last)",
+            "text": "Sale Now On (all prices marked down - no coupon codes)",
             "link": ""
           }
         }
