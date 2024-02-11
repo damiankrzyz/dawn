@@ -53,6 +53,11 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "description_WeLnHX": {
+          "type": "description",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -60,7 +65,8 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "share"
+        "share",
+        "description_WeLnHX"
       ],
       "settings": {
         "enable_sticky_info": true,
