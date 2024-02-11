@@ -1,5 +1,28 @@
 {
   "sections": {
+    "rich_text_MHfgKW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VeBWqm": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.title }}",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VeBWqm"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "rich_text_ThEKrp": {
       "type": "rich-text",
       "blocks": {
@@ -17,7 +40,7 @@
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
-        "full_width": true,
+        "full_width": false,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -104,6 +127,7 @@
     }
   },
   "order": [
+    "rich_text_MHfgKW",
     "rich_text_ThEKrp",
     "main",
     "related-products"
