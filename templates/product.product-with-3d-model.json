@@ -109,10 +109,11 @@
         "row_eGUHcD": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
+            "image": "shopify:\/\/shop_images\/powderpuffs1.jpg",
+            "caption": "",
+            "heading": "",
             "text": "{{ product.metafields.custom[\"3d_data\"] | metafield_tag }}",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": ""
           }
         }
