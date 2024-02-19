@@ -259,7 +259,9 @@
           <noscript>
             {%- form 'localization', id: 'FooterCountryFormNoScript', class: 'localization-form' -%}
               <div class="localization-form__select">
-                <h2 class="visually-hidden" id="FooterCountryLabelNoScript">{{ 'localization.country_label' | t }}</h2>
+                <div class="visually-hidden" id="FooterCountryLabelNoScript">
+                  {{ 'localization.country_label' | t }}
+                </div>
                 <select
                   class="localization-selector link"
                   name="country_code"
@@ -285,7 +287,9 @@
           <localization-form>
             {%- form 'localization', id: 'FooterCountryForm', class: 'localization-form' -%}
               <div class="no-js-hidden">
-                <h2 class="caption-large text-body" id="FooterCountryLabel">{{ 'localization.country_label' | t }}</h2>
+                <div class="caption-large text-body" id="FooterCountryLabel">
+                  {{ 'localization.country_label' | t }}
+                </div>
                 {%- render 'country-localization', localPosition: 'FooterCountry' -%}
               </div>
             {%- endform -%}
