@@ -32,6 +32,15 @@
         "show_text_below": false
       }
     },
+    "custom_liquid_8WQBDy": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"rich-text content-container color-background-1 gradient rich-text--full-width content-container--full-width section-template--16230314115265__rich_text_6qwrGQ-padding\">\n    <div class=\"rich-text__wrapper rich-text__wrapper--center page-width\">\n      <div class=\"rich-text__blocks center\"><h1 class=\"rich-text__heading rte inline-richtext h1\" data-shopify-editor-block=\"{&quot;id&quot;:&quot;heading_RA7Ymf&quot;,&quot;type&quot;:&quot;heading&quot;}\" data-live-text-setting=\"section.template--16230314115265__rich_text_6qwrGQ.block.heading_RA7Ymf.heading\">\n                Nanshy Cruelty-Free &amp; Vegan Makeup Brushes, Beauty &amp; Skincare Tools\n              <\/h1><\/div>\n    <\/div>\n  <\/div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_with_text_xeLmFf": {
       "type": "image-with-text",
       "blocks": {
@@ -482,6 +491,7 @@
   },
   "order": [
     "image_banner",
+    "custom_liquid_8WQBDy",
     "image_with_text_xeLmFf",
     "rich_text_bp6fAT",
     "image_banner_ceFmXH",
