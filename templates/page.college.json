@@ -5,6 +5,70 @@
       "settings": {
         "custom_liquid": "<h1 class=\"main-page-title page-title h1\">\n    College Makeup Kit\n  <\/h1>",
         "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_mgddQi": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_9MRApt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner-homepage1-1536x1008.jpg",
+            "title": "A Student looking for your college kit?",
+            "text": "<p>Please check the order form sent to you by your college. It will include a link along with password to access your product page. If you have any difficulties accessing it please contact us for assistance.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6p4awQ": {
+          "type": "column",
+          "settings": {
+            "title": "A Tutor in a search of a perfect College Makeup Kit?",
+            "text": "<p>Here at Nanshy, we make it super easy to build and buy your <strong>bespoke kit<\/strong>. We will work to your specific requirement until you are 100% satisfied. No matter <strong>your budget<\/strong>, we have the right products for your <strong>makeup course<\/strong> including beauty, fashion, media, photo, body painting, special effects, plus more.<\/p><p>Please fill in the form below. We will contact you back with options.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wahBCF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/masterful-collection-eye-brushes.jpg",
+            "title": "A College looking to repurchase their kit?",
+            "text": "<p>Please get in touch with your account manager or send us an email via the form below.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_9MRApt",
+        "column_6p4awQ",
+        "column_wahBCF"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "accent-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_gqbyFk": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script src=\"https:\/\/fast.wistia.com\/embed\/medias\/3u823xkwln.jsonp\" async><\/script><script src=\"https:\/\/fast.wistia.com\/assets\/external\/E-v1.js\" async><\/script><div class=\"wistia_responsive_padding\" style=\"padding:56.25% 0 0 0;position:relative;\"><div class=\"wistia_responsive_wrapper\" style=\"height:100%;left:0;position:absolute;top:0;width:100%;\"><div class=\"wistia_embed wistia_async_3u823xkwln seo=true videoFoam=true\" style=\"height:100%;position:relative;width:100%\"><div class=\"wistia_swatch\" style=\"height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;\"><img src=\"https:\/\/fast.wistia.com\/embed\/medias\/3u823xkwln\/swatch\" style=\"filter:blur(5px);height:100%;object-fit:contain;width:100%;\" alt=\"\" aria-hidden=\"true\" onload=\"this.parentNode.style.opacity=1;\" \/><\/div><\/div><\/div><\/div>",
+        "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -17,28 +81,10 @@
           "settings": {
             "shortcode": "<div class=\"form-builder-ips\" data-ap-key=\"61991551169\" data-key=\"65918de925b7c03a70aafbef\"><\/div>"
           }
-        },
-        "a236ce20-044d-45d0-9f5a-cbe3415637fa": {
-          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
-          "settings": {
-            "form_id": "45877",
-            "text_color": "#202020",
-            "button_background_color": "#202020",
-            "button_label_color": "#ffffff",
-            "links_color": "#1878b9",
-            "errors_color": "#e02229",
-            "text_alignment": "center",
-            "form_alignment": "center",
-            "padding_top": 0,
-            "padding_bottom": 0,
-            "padding_right": 0,
-            "padding_left": 0
-          }
         }
       },
       "block_order": [
-        "1106f53e-8cde-4167-aa46-2e10bc56295f",
-        "a236ce20-044d-45d0-9f5a-cbe3415637fa"
+        "1106f53e-8cde-4167-aa46-2e10bc56295f"
       ],
       "settings": {
         "include_margins": true
@@ -46,6 +92,7 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
         ".accordion {background-color: #eee; color: #444; cursor: pointer; padding: 18px; width: 100%; text-align: left; border: none; outline: none; transition: 0.4s;}",
         ".active,.accordion:hover {background-color: #ccc;}",
@@ -55,11 +102,95 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_8N8X3t": {
+      "type": "rich-text",
+      "blocks": {
+        "text_7tK3K3": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Great Quality<\/h3><p>We use <strong>Taklon bristles<\/strong> (most advanced synthetic fibres), sustainably sources wooden handle that is covered in <strong>7 layers of waterproof paint<\/strong>. Our ferrules are made out of <strong>chrome-plated brass<\/strong>. It's much more robust that the aluminium used by our competitors.<\/p><h3>Approved by Professionals<\/h3><p>Our products are used (and loved) by Makeup Artists around the World. We have sold thousands of products with 90% of customers returning for more.<br\/>From Celebrity to Bridal, you cannot resist to have Nanshy in your kit.<\/p><h3>Environment Friendly<\/h3><p>Since day one, we wanted to make sure that we make a difference. Established in 2012 our aim was to be No.1 Professional Vegan brush supplier. We have been recognised by PETA.org and are proud to be 100% Cruelty-Free. It has become very popular to use no-animal brushes from very early start in students journey.<\/p><h3>Not what you're looking for?<\/h3><p>Please visit our shop to view our collection of products or contact us with any question.<\/p><p><a href=\"\/collections\" title=\"All collections\">View the shop<\/a><\/p><p><a href=\"\/pages\/contact\" title=\"Contact\">Contact us<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_7tK3K3"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multirow_xYNF63": {
+      "type": "multirow",
+      "blocks": {
+        "row_jg3UtC": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bedford-College-Open-Day-2000x1500-1-1.webp",
+            "caption": "Advanced practitioner",
+            "heading": "Melissa Peacock - Bedford College",
+            "text": "<p>\"I would wholeheartedly recommend Nanshy to other colleges and professionals, and have been a college customer for four years now. They are very happy to put together a bespoke kit and I have always found them to have an excellent attitude to customer service, and a good understanding of my needs as a busy lecturer.<\/p><p>The on-line ordering is very smooth for the students\/their parents to access and complete and delivery is always timely.<\/p><p>The brushes themselves are of the highest quality and being vegan meet the needs of all types of learners. There is a large but manageable range of brush size and shapes to meet every makeup need, and the brushes themselves are very durable. They are well balanced and clean up beautifully.\"<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_3EYTLm": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/UniUnderCover--Arts-University-Bournemouth-UG-Cover.jpg",
+            "caption": "Technician Demonstrator ‑Make Up for Media and Performance",
+            "heading": "Sophie Monro - Arts University Bournemouth",
+            "text": "<p>“We first saw Nanshy brushes at IMATS and thought the synthetic brush fibres were excellent quality, soft, and could easily be kept hygienically clean.  We also liked the range of brushes in terms of sizes and shapes of the bristles, and the length of the handles.<\/p><p>“...the students have been really pleased with Nanshy brushes and found them to be good quality and well-made.<\/p><p><\/p><p>We would definitely recommend Nanshy to other colleges and universities.  Nanshy are professional and helpful, the brushes are great quality and excellent value for money.  We have really appreciated being able to create a bespoke kit selection, choosing a variety of styles and sizes that suits our students, and duplicates of our favourites.  I would highly recommend Nanshy and we will continue to buy Nanshy brushes because the quality and value can’t be matched.”<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_RTG7gQ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/new-college-swindon.webp",
+            "caption": "Lecturer in Media Make Up",
+            "heading": "Ellie Baskerville - New College Swindon",
+            "text": "<p>“Professional product, good results, excellent value. The fact the products are also totally cruelty free is a bonus with current issues. I like the range of shapes and sizes in the <strong>Nanshy<\/strong> brush kit, the set we select at the college (masterful collection) has a good range of shapes and sizes - appropriate for creating beauty, theatrical and fantasy makeup my personal favourite is the pencil makeup brush.<\/p><p>I would recommend <strong>Nanshy<\/strong> to other colleges as a professional starter kit for students, great value, great quality and great performance. Brushes are nice to use, clean up beautifully and have a professional finish. The service is very speedy and professional in relation to contact and delivery of goods. “<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_jg3UtC",
+        "row_3EYTLm",
+        "row_RTG7gQ"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "small",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "accent-2",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "custom_liquid_9WwRHj",
+    "multicolumn_mgddQi",
+    "custom_liquid_gqbyFk",
     "17040370107a33a4cf",
-    "main"
+    "main",
+    "rich_text_8N8X3t",
+    "multirow_xYNF63"
   ]
 }
