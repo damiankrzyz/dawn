@@ -62,12 +62,6 @@
             "show_gift_card_recipient": true
           }
         },
-        "custom_liquid_agqxD8": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<a class=\"klaviyo-bis-trigger button button--full-width button--primary\" href=\"#\">Back in Stock Notification<\/a>"
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -136,7 +130,6 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "custom_liquid_agqxD8",
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
