@@ -84,7 +84,7 @@
           >
             <span>
               {%- if product.selected_or_first_available_variant.available == false or quantity_rule_soldout -%}
-                <script async src="https://a.klaviyo.com/media/js/onsite/onsite.js"></script>
+                <script src="https://a.klaviyo.com/media/js/onsite/onsite.js" defer></script>
                 <script>
                     var klaviyo = klaviyo || [];
                     klaviyo.init({
@@ -109,7 +109,7 @@
                     }
                   });
                 </script>
-                <a class="klaviyo-bis-trigger button button--full-width button--primary" href="#">Back in Stock Notification</a>
+                <a class="klaviyo-bis-trigger button button--full-width button--primary enabled" href="#">Out of stock - Notify me when available</a>
               {%- else -%}
                 {{ 'products.product.add_to_cart' | t }}
               {%- endif -%}
