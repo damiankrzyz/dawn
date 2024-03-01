@@ -237,12 +237,6 @@
 
     ],
     "blocks": {
-      "7555218208816688692": {
-        "type": "shopify:\/\/apps\/rivo-popups-email-pop-ups\/blocks\/app-embed\/48a5a3ef-b6ff-431f-842f-6f17862c4a63",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "7570552984445421165": {
         "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/settings\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
         "disabled": false,
