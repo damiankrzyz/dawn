@@ -34,9 +34,31 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "1709506041c3bb1381": {
+      "type": "apps",
+      "blocks": {
+        "raleon_loyalty_bar_Y3prHe": {
+          "type": "shopify:\/\/apps\/raleon\/blocks\/loyalty-bar\/14e03038-ecf9-42e8-9c07-f427b5c13bfb",
+          "settings": {
+            "text": "View Available Rewards",
+            "bar_color": "#000000",
+            "icon_color": "#ffffff",
+            "icon_width": "2.3rem",
+            "icon_height": "2.3rem"
+          }
+        }
+      },
+      "block_order": [
+        "raleon_loyalty_bar_Y3prHe"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "header"
+    "header",
+    "1709506041c3bb1381"
   ]
 }
