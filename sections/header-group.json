@@ -4,6 +4,21 @@
   "sections": {
     "header": {
       "type": "header",
+      "blocks": {
+        "raleon_loyalty_open_x4RRdw": {
+          "type": "shopify:\/\/apps\/raleon\/blocks\/loyalty-open\/14e03038-ecf9-42e8-9c07-f427b5c13bfb",
+          "settings": {
+            "icon_width": "2.3rem",
+            "icon_height": "2.3rem",
+            "icon_stroke_width": "0.02",
+            "container_width": "4rem",
+            "container_height": "4rem"
+          }
+        }
+      },
+      "block_order": [
+        "raleon_loyalty_open_x4RRdw"
+      ],
       "settings": {
         "logo_position": "middle-center",
         "menu": "main-menu",
