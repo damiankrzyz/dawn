@@ -280,6 +280,14 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "3056337935789298891": {
+        "type": "shopify:\/\/apps\/raleon\/blocks\/app-embed\/14e03038-ecf9-42e8-9c07-f427b5c13bfb",
+        "disabled": false,
+        "settings": {
+          "raleon_font": "sans-serif",
+          "snippet_url": "https:\/\/dqpqjbq51w8fz.cloudfront.net\/raleon-loyalty.min.js"
+        }
       }
     },
     "color_schemes": {
