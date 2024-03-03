@@ -295,6 +295,12 @@
         "settings": {
           "page_url": "\/pages\/loyalty-rewards"
         }
+      },
+      "224720542927556316": {
+        "type": "shopify:\/\/apps\/inciter-promo-bars\/blocks\/app-embed-block\/fa00ac72-f96e-4739-bd90-977246bdfaf3",
+        "disabled": false,
+        "settings": {
+        }
       }
     },
     "color_schemes": {
