@@ -7,6 +7,7 @@
       "blocks": {
         "raleon_loyalty_open_x4RRdw": {
           "type": "shopify:\/\/apps\/raleon\/blocks\/loyalty-open\/14e03038-ecf9-42e8-9c07-f427b5c13bfb",
+          "disabled": true,
           "settings": {
             "icon_width": "2.2rem",
             "icon_height": "2.2rem",
@@ -40,6 +41,7 @@
       "blocks": {
         "raleon_loyalty_bar_Y3prHe": {
           "type": "shopify:\/\/apps\/raleon\/blocks\/loyalty-bar\/14e03038-ecf9-42e8-9c07-f427b5c13bfb",
+          "disabled": true,
           "settings": {
             "text": "View Available Rewards",
             "bar_color": "#000000",

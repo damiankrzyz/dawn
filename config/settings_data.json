@@ -281,9 +281,15 @@
         "settings": {
         }
       },
+      "224720542927556316": {
+        "type": "shopify:\/\/apps\/inciter-promo-bars\/blocks\/app-embed-block\/fa00ac72-f96e-4739-bd90-977246bdfaf3",
+        "disabled": false,
+        "settings": {
+        }
+      },
       "3056337935789298891": {
         "type": "shopify:\/\/apps\/raleon\/blocks\/app-embed\/14e03038-ecf9-42e8-9c07-f427b5c13bfb",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "raleon_font": "sans-serif",
           "snippet_url": "https:\/\/dqpqjbq51w8fz.cloudfront.net\/raleon-loyalty.min.js"
@@ -291,15 +297,9 @@
       },
       "10033233894339945493": {
         "type": "shopify:\/\/apps\/raleon\/blocks\/menu-override-embed\/14e03038-ecf9-42e8-9c07-f427b5c13bfb",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "page_url": "\/pages\/loyalty-rewards"
-        }
-      },
-      "224720542927556316": {
-        "type": "shopify:\/\/apps\/inciter-promo-bars\/blocks\/app-embed-block\/fa00ac72-f96e-4739-bd90-977246bdfaf3",
-        "disabled": false,
-        "settings": {
         }
       }
     },
