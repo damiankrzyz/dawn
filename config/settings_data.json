@@ -304,6 +304,19 @@
           "disableBundledFonts": false,
           "useClassIsolator": false
         }
+      },
+      "15871026291228209630": {
+        "type": "shopify:\/\/apps\/sc-conjured-referrals\/blocks\/embed-floating-button\/259a1e76-fe9f-44e8-b3bd-171319d52fc6",
+        "disabled": false,
+        "settings": {
+          "button_text": "Get £10",
+          "button_background": "#000",
+          "button_color": "#fff",
+          "referral_display": "popup",
+          "campaign_id": "9472",
+          "referral_link": "",
+          "custom_css": ""
+        }
       }
     },
     "color_schemes": {
@@ -565,7 +578,8 @@
   "platform_customizations": {
     "custom_css": [
       "header.page-width.page-width--narrow,.article-template__social-sharing.page-width.page-width--narrow,.article-template__content.page-width.page-width--narrow.rte,.article-template__back.element-margin-top.cente {max-width: 130rem;}",
-      ".main-blog.page-width.section-template--16072400470186__main-padding > h1 {display: none;}"
+      ".main-blog.page-width.section-template--16072400470186__main-padding > h1 {display: none;}",
+      "#conjured_referral button {background: #ededed;}"
     ]
   }
 }
