@@ -6,9 +6,50 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_zQCVty": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JCc7zD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Spread the Love (and the Savings)! Get £10 off for You AND Your Besties",
+            "heading_size": "h2"
+          }
+        },
+        "text_MPwnVt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sharing is caring, especially when it comes to amazing sustainable beauty! We're thrilled to announce our brand new refer-a-friend program where you can both enjoy <strong>£10 off<\/strong> your next Nanshy purchase. It's a win-win situation for style and the planet!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JCc7zD",
+        "text_MPwnVt"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_cYTfLe": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script async src=\"https:\/\/referralprogramapp.com\/shopify\/referral\/widget.js?shop=nanshyuk.myshopify.com&cmp=9472\"><\/script><div id=\"conjured_referral\"><\/div>\n\n<script type=\"text\/javascript\">\/\/ <![CDATA[\n\n  function conjuredReferralExternal(conjuredReferral) {\n\n    jQuery('#conjured_referral_name').val('{{ customer.name }}');\n\n    jQuery('#conjured_referral_email').val('{{ customer.email }}');\n\n  }\n\n\/\/ ]]><\/script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_zQCVty",
+    "custom_liquid_cYTfLe"
   ]
 }
