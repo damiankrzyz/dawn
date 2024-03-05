@@ -312,9 +312,9 @@
           "button_text": "Get £10",
           "button_background": "#000",
           "button_color": "#fff",
-          "referral_display": "popup",
+          "referral_display": "link",
           "campaign_id": "9472",
-          "referral_link": "",
+          "referral_link": "shopify:\/\/pages\/refer-a-friend",
           "custom_css": ""
         }
       }
