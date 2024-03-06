@@ -52,8 +52,8 @@
         "column_8AKwEp": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Friend Gets Flawless",
+            "text": "<p>Your friend clicks your link and enjoys £10 off their first £40+ purchase. They'll love the quality and ethical practices behind the brand!<br\/><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -61,8 +61,8 @@
         "column_BEDKJD": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "You Get Rewarded",
+            "text": "<p>Once your friend completes their purchase, you'll receive <strong>£10 off <\/strong>your next Nanshy order! It's a win-win for flawless looks and sustainable beauty!<br\/><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -98,12 +98,94 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "collapsible_content_igWRfm": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_388Kfc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What do my friends get?",
+            "icon": "check_mark",
+            "row_content": "<p>Your friends will receive <strong>£10 off<\/strong> their first purchase of Nanshy makeup brushes, sponges, or bags.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_WC3me4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What do I get?",
+            "icon": "check_mark",
+            "row_content": "<p>Once your friend completes their first purchase using your referral link or code, you'll receive <strong>£10 off<\/strong> your next Nanshy order.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4QzQe3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How many friends can I refer?",
+            "icon": "check_mark",
+            "row_content": "<p>There is no limit to the number of friends you can refer! The more friends you refer, the more rewards you can earn.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fX8QYj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is there a minimum purchase amount for my friend?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes, there is a minimum purchase of £40 required for your friend to qualify for the discount and for you to receive your reward.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_eRa98Q": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does the referral program last?",
+            "icon": "check_mark",
+            "row_content": "<p>The Nanshy refer-a-friend program is ongoing. We're excited to share the love of sustainable beauty with you and your friends!<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_M6Xx8x": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Something else",
+            "icon": "check_mark",
+            "row_content": "<p>For any other questions, please don't hesitate to contact us using the chat widget or:<\/p>",
+            "page": "contact"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_388Kfc",
+        "collapsible_row_WC3me4",
+        "collapsible_row_4QzQe3",
+        "collapsible_row_fX8QYj",
+        "collapsible_row_eRa98Q",
+        "collapsible_row_M6Xx8x"
+      ],
+      "settings": {
+        "caption": "Need help?",
+        "heading": "FAQ",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "section",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
     }
   },
   "order": [
     "main",
     "rich_text_zQCVty",
     "multicolumn_83Vp8t",
-    "custom_liquid_cYTfLe"
+    "custom_liquid_cYTfLe",
+    "collapsible_content_igWRfm"
   ]
 }
