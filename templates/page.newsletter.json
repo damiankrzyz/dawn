@@ -23,10 +23,34 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "rich_text_HCMhmX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fckFPk": {
+          "type": "heading",
+          "settings": {
+            "heading": "-----------------------------",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fckFPk"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "1709819163a76a29ca"
+    "1709819163a76a29ca",
+    "rich_text_HCMhmX"
   ]
 }
