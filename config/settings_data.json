@@ -296,15 +296,6 @@
           "page_url": "\/pages\/loyalty-rewards"
         }
       },
-      "4291333794791649201": {
-        "type": "shopify:\/\/apps\/loyalty-rewards-and-referrals\/blocks\/embed-sdk\/6f172e67-4106-4ac0-89c5-b32a069b3101",
-        "disabled": true,
-        "settings": {
-          "disableBundledCSS": false,
-          "disableBundledFonts": false,
-          "useClassIsolator": false
-        }
-      },
       "15871026291228209630": {
         "type": "shopify:\/\/apps\/sc-conjured-referrals\/blocks\/embed-floating-button\/259a1e76-fe9f-44e8-b3bd-171319d52fc6",
         "disabled": false,
