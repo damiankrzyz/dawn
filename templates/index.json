@@ -443,12 +443,12 @@
       "type": "video",
       "settings": {
         "heading": "About Nanshy",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=xU1pwQpfa_8",
-        "cover_image": "shopify:\/\/shop_images\/nanshy-video.jpg",
+        "cover_image": "shopify:\/\/shop_images\/Video_Cover_IMATS_Nanshy.png",
         "description": "About Nanshy",
-        "full_width": false,
+        "full_width": true,
         "color_scheme": "background-2",
         "padding_top": 12,
         "padding_bottom": 12
