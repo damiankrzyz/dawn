@@ -57,6 +57,11 @@
             "show_gift_card_recipient": true
           }
         },
+        "selleasy_lb_upsell_addon_block_mT9gnf": {
+          "type": "shopify:\/\/apps\/selleasy\/blocks\/lb-upsell-addon-block\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -125,6 +130,7 @@
         "quantity_selector",
         "custom_liquid_tqDfNC",
         "buy_buttons",
+        "selleasy_lb_upsell_addon_block_mT9gnf",
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
