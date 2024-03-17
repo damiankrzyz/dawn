@@ -21,17 +21,6 @@
             "product": "{{product}}"
           }
         },
-        "0447fdb0-3fe0-465e-94a1-cae0989dad29": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
-          "disabled": true,
-          "settings": {
-            "stars_fill_color": "#000000",
-            "star_size": 15,
-            "text_align": "center",
-            "product": "{{product}}",
-            "stars_text_empty": "Leave review"
-          }
-        },
         "caption": {
           "type": "text",
           "settings": {
@@ -130,7 +119,6 @@
         "vendor",
         "title",
         "yotpo_product_photo_reviews_star_rating_crYaen",
-        "0447fdb0-3fe0-465e-94a1-cae0989dad29",
         "caption",
         "price",
         "variant_picker",
@@ -158,6 +146,22 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
+      }
+    },
+    "17106723224c0b6f00": {
+      "type": "apps",
+      "blocks": {
+        "selleasy_lb_upsell_fbt_block_Px4p8J": {
+          "type": "shopify:\/\/apps\/selleasy\/blocks\/lb-upsell-fbt-block\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "selleasy_lb_upsell_fbt_block_Px4p8J"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "image-with-text": {
@@ -280,6 +284,7 @@
   },
   "order": [
     "main",
+    "17106723224c0b6f00",
     "image-with-text",
     "multicolumn",
     "related-products",
