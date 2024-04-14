@@ -453,6 +453,22 @@
         "padding_top": 12,
         "padding_bottom": 12
       }
+    },
+    "1713121768de9ece47": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_ugc_media_grid_tTyrwi": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/ugc_media_grid\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_ugc_media_grid_tTyrwi"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -469,6 +485,7 @@
     "multicolumn",
     "featured_collection",
     "collage",
-    "video"
+    "video",
+    "1713121768de9ece47"
   ]
 }
