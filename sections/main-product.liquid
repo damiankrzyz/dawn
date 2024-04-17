@@ -682,7 +682,7 @@
   {% else %}
     <p>
       {% if pagePassword %}
-        Wrong password
+       <p stype=color:red> Wrong password</p>
       {% else %}
         Please enter a password
       {% endif %}
@@ -703,7 +703,7 @@
         class="button"
         onclick="window.location.href = '{{ request.path }}?password=' + document.querySelector('#password-input').value;"
       >
-        Su
+        Submit
       </button>
     </div>
   {% endif %}
