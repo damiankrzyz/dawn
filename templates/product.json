@@ -6,6 +6,9 @@
         "vendor": {
           "type": "text",
           "settings": {
+            "password_prompt_text": "Please input password to view this page",
+            "wrong_password_prompt_text": "Wrong password, please try again",
+            "submit_password_text": "Submit",
             "text": "{{ product.vendor }}",
             "text_style": "uppercase"
           }
@@ -18,6 +21,9 @@
         "caption": {
           "type": "text",
           "settings": {
+            "password_prompt_text": "Please input password to view this page",
+            "wrong_password_prompt_text": "Wrong password, please try again",
+            "submit_password_text": "Submit",
             "text": "{{ product.metafields.descriptors.subtitle.value }}",
             "text_style": "subtitle"
           }
@@ -68,6 +74,12 @@
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
+          }
+        },
+        "custom_liquid_CcWtcN": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"product__media media\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0619\/9155\/1169\/files\/Vegan-and-cruelty-free_440_x_200_px.png?v=1713444836\">\n    <\/div>"
           }
         },
         "selleasy_lb_upsell_fbt_block_nkrLBM": {
@@ -144,6 +156,7 @@
         "custom_liquid_tqDfNC",
         "subscriptions_app_block_kQb9mw",
         "buy_buttons",
+        "custom_liquid_CcWtcN",
         "selleasy_lb_upsell_fbt_block_nkrLBM",
         "description",
         "collapsible-row-0",
