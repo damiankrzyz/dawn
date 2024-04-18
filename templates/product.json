@@ -79,7 +79,7 @@
         "custom_liquid_CcWtcN": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"product__media media\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0619\/9155\/1169\/files\/Vegan-and-cruelty-free_440_x_200_px.png?v=1713444836\">\n    <\/div>"
+            "custom_liquid": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0619\/9155\/1169\/files\/Vegan-and-cruelty-free_440_x_200_px.png?v=1713444836\" alt=\"usp nanshy\">"
           }
         },
         "selleasy_lb_upsell_fbt_block_nkrLBM": {
