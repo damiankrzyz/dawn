@@ -33,6 +33,22 @@
         "show_text_below": false
       }
     },
+    "image_banner_EmN7hX": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/main_banner_3for2.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "custom_liquid_kBFWaj": {
       "type": "custom-liquid",
       "settings": {
@@ -483,6 +499,7 @@
   },
   "order": [
     "image_banner",
+    "image_banner_EmN7hX",
     "custom_liquid_kBFWaj",
     "custom_liquid_8WQBDy",
     "image_with_text_xeLmFf",
