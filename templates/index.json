@@ -18,6 +18,7 @@
       "block_order": [
         "buttons_wtazpV"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/main_banner.jpg",
         "image_overlay_opacity": 0,
@@ -30,6 +31,15 @@
         "mobile_content_alignment": "left",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "custom_liquid_kBFWaj": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<section id=\"shopify-section-template--16230314115265__image_banner\" class=\"shopify-section section\"><link href=\"\/\/nanshy.com\/cdn\/shop\/t\/9\/assets\/section-image-banner.css?v=157856879886144226731693308414\" rel=\"stylesheet\" type=\"text\/css\" media=\"all\">\n<style data-shopify=\"\">@media screen and (max-width: 749px) {\n      #Banner-template--16230314115265__image_banner::before,\n      #Banner-template--16230314115265__image_banner .banner__media::before,\n      #Banner-template--16230314115265__image_banner:not(.banner--mobile-bottom) .banner__content::before {\n        padding-bottom: 56.25%;\n        content: '';\n        display: block;\n      }\n    }\n\n    @media screen and (min-width: 750px) {\n      #Banner-template--16230314115265__image_banner::before,\n      #Banner-template--16230314115265__image_banner .banner__media::before {\n        padding-bottom: 56.25%;\n        content: '';\n        display: block;\n      }\n    }<\/style><style data-shopify=\"\">#Banner-template--16230314115265__image_banner::after {\n    opacity: 0.0;\n  }<\/style>\n  <a href=\"https:\/\/nanshy.com\/collections\/makeup-brushes-face-makeup-brushes\">\n  <div id=\"Banner-template--16230314115265__image_banner\" class=\"banner banner--content-align-center banner--content-align-mobile-left banner--adapt banner--adapt banner--desktop-transparent scroll-trigger animate--fade-in\"><div class=\"banner__media media scroll-trigger animate--fade-in\"><img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0619\/9155\/1169\/files\/main_banner_3for2.jpg?v=1714147718\" alt=\"banner\" srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0619\/9155\/1169\/files\/main_banner_3for2.jpg?v=1709295220&amp;width=375 375w, https:\/\/cdn.shopify.com\/s\/files\/1\/0619\/9155\/1169\/files\/main_banner_3for2.jpg?v=1714147718&amp;width=550 550w, \/\/cdn.shopify.com\/s\/files\/1\/0619\/9155\/1169\/files\/main_banner_3for2.jpg?v=1709295220&amp;width=750 750w, \/\/cdn.shopify.com\/s\/files\/1\/0619\/9155\/1169\/files\/main_banner_3for2.jpg?v=1709295220&amp;width=1100 1100w, \/\/cdn.shopify.com\/s\/files\/1\/0619\/9155\/1169\/files\/main_banner_3for2.jpg?v=1709295220&amp;width=1500 1500w, \/\/cdn.shopify.com\/s\/files\/1\/0619\/9155\/1169\/files\/main_banner_3for2.jpg?v=1709295220&amp;width=1780 1780w, \/\/cdn.shopify.com\/s\/files\/1\/0619\/9155\/1169\/files\/main_banner_3for2.jpg?v=1709295220&amp;width=2000 2000w, \/\/cdn.shopify.com\/s\/files\/1\/0619\/9155\/1169\/files\/main_banner_3for2.jpg?v=1709295220&amp;width=3000 3000w, \/\/cdn.shopify.com\/s\/files\/1\/0619\/9155\/1169\/files\/main_banner_3for2.jpg?v=1709295220&amp;width=3840 3840w\" width=\"1920\" height=\"1080.0\" loading=\"lazy\" sizes=\"100vw\">\n    <\/div>\n    \n  <\/div>\n<\/a>\n\n\n<\/section>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "custom_liquid_8WQBDy": {
@@ -473,6 +483,7 @@
   },
   "order": [
     "image_banner",
+    "custom_liquid_kBFWaj",
     "custom_liquid_8WQBDy",
     "image_with_text_xeLmFf",
     "rich_text_bp6fAT",
