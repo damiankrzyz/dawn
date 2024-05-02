@@ -962,7 +962,7 @@ class VariantSelects extends HTMLElement {
     this.updateOptions();
     this.updateMasterId();
     this.toggleAddButton(true, '', false);
-    this.updatePickupAvailability();
+ //   this.updatePickupAvailability();
     this.removeErrorMessage();
     this.updateVariantStatuses();
 
@@ -1055,6 +1055,7 @@ class VariantSelects extends HTMLElement {
     });
   }
 
+ /*
   updatePickupAvailability() {
     const pickUpAvailability = document.querySelector('pickup-availability');
     if (!pickUpAvailability) return;
@@ -1066,7 +1067,7 @@ class VariantSelects extends HTMLElement {
       pickUpAvailability.innerHTML = '';
     }
   }
-
+*/
   removeErrorMessage() {
     const section = this.closest('section');
     if (!section) return;
