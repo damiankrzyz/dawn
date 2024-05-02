@@ -1,9 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
-	<!-- Added by AVADA SEO Suite -->
-	{% include 'avada-seo' %}
-	<!-- /Added by AVADA SEO Suite -->
     {% if template.suffix contains 'noindex' %}
       <!-- noindex this page if the template contains "no-index" in the name -->
       <meta name="robots" content="noindex">
@@ -41,10 +38,7 @@
     <script type="text/javascript">
       (function e(){var e=document.createElement("script");e.type="text/javascript",e.async=true,e.src="//staticw2.yotpo.com/pFBxGeykOZnIm5kZc6mrwFICy0KxLOFfNchaAbmU/widget.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})();
     </script>
-    <script
-      src="https://cdn-widgetsrepository.yotpo.com/v1/loader/pFBxGeykOZnIm5kZc6mrwFICy0KxLOFfNchaAbmU?languageCode={{ localization.language.iso_code | escape }}"
-      async
-    ></script>
+
     {{ content_for_header }}
 
     <style>
