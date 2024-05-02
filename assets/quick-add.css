@@ -1,226 +1,124 @@
-.quick-add {
-  position: relative;
-  grid-row-start: 4;
-  margin: 0 0 1rem;
-  z-index: 1;
-}
+if (!customElements.get('quick-add-modal')) {
+  customElements.define(
+    'quick-add-modal',
+    class QuickAddModal extends ModalDialog {
+      constructor() {
+        super();
+        this.modalContent = this.querySelector('[id^="QuickAddInfo-"]');
+      }
 
-.card--card .quick-add {
-  margin: 0 1.3rem 1rem;
-}
+      hide(preventFocus = false) {
+        const cartNotification = document.querySelector('cart-notification') || document.querySelector('cart-drawer');
+        if (cartNotification) cartNotification.setActiveElement(this.openedBy);
+        this.modalContent.innerHTML = '';
 
-.quick-add-modal {
-  box-sizing: border-box;
-  opacity: 0;
-  position: fixed;
-  visibility: hidden;
-  z-index: -1;
-  margin: 0 auto;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: rgba(var(--color-foreground), 0.2);
-  height: 100%;
-}
+        if (preventFocus) this.openedBy = null;
+        super.hide();
+      }
 
-.quick-add-modal[open] {
-  opacity: 1;
-  visibility: visible;
-  z-index: 101;
-}
+      show(opener) {
+        opener.setAttribute('aria-disabled', true);
+        opener.classList.add('loading');
+        opener.querySelector('.loading__spinner').classList.remove('hidden');
 
-.quick-add-modal .scroll-trigger.scroll-trigger {
-  animation: none;
-  opacity: 1;
-}
+        fetch(opener.getAttribute('data-product-url'))
+          .then((response) => response.text())
+          .then((responseText) => {
+            const responseHTML = new DOMParser().parseFromString(responseText, 'text/html');
+            this.productElement = responseHTML.querySelector('section[id^="MainProduct-"]');
+            this.productElement.classList.forEach((classApplied) => {
+              if (classApplied.startsWith('color-') || classApplied === 'gradient')
+                this.modalContent.classList.add(classApplied);
+            });
+            this.preventDuplicatedIDs();
+            this.removeDOMElements();
+            this.setInnerHTML(this.modalContent, this.productElement.innerHTML);
 
-.quick-add-modal__content {
-  --modal-height-offset: 3.2rem;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  margin: var(--modal-height-offset) auto 0;
-  width: 100%;
-  background-color: rgb(var(--color-background));
-  overflow: hidden;
-  max-width: var(--page-width);
-  width: calc(100% - 3rem);
-}
+            if (window.Shopify && Shopify.PaymentButton) {
+              Shopify.PaymentButton.init();
+            }
 
-@media screen and (min-width: 750px) {
-  .quick-add-modal__content {
-    --modal-height-offset: 10rem;
-    margin-top: var(--modal-height-offset);
-    width: 80%;
-    max-height: calc(100% - var(--modal-height-offset) * 2);
-    overflow-y: auto;
-  }
+            if (window.ProductModel) window.ProductModel.loadShopifyXR();
 
-  quick-add-modal .quick-add-modal__toggle {
-    top: 2rem;
-    right: 2rem;
-  }
-}
+            this.removeGalleryListSemantic();
+            this.updateImageSizes();
+            this.preventVariantURLSwitching();
+            super.show(opener);
+          })
+          .finally(() => {
+            opener.removeAttribute('aria-disabled');
+            opener.classList.remove('loading');
+            opener.querySelector('.loading__spinner').classList.add('hidden');
+          });
+      }
 
-@media screen and (min-width: 990px) {
-  .quick-add-modal__content {
-    width: 70%;
-  }
-}
+      setInnerHTML(element, html) {
+        element.innerHTML = html;
 
-.quick-add-modal__content img {
-  max-width: 100%;
-}
+        // Reinjects the script tags to allow execution. By default, scripts are disabled when using element.innerHTML.
+        element.querySelectorAll('script').forEach((oldScriptTag) => {
+          const newScriptTag = document.createElement('script');
+          Array.from(oldScriptTag.attributes).forEach((attribute) => {
+            newScriptTag.setAttribute(attribute.name, attribute.value);
+          });
+          newScriptTag.appendChild(document.createTextNode(oldScriptTag.innerHTML));
+          oldScriptTag.parentNode.replaceChild(newScriptTag, oldScriptTag);
+        });
+      }
 
-.quick-add-modal__content-info {
-  --modal-padding: 2.5rem;
-  padding-right: 4.4rem;
-  display: flex;
-  overflow-y: auto;
-  padding: var(--modal-padding);
-  height: 100%;
-}
+      preventVariantURLSwitching() {
+        const variantPicker = this.modalContent.querySelector('variant-selects');
+        if (!variantPicker) return;
 
-.quick-add-modal__content-info > * {
-  height: auto;
-  margin: 0 auto;
-  max-width: 100%;
-  width: 100%;
-}
+        variantPicker.setAttribute('data-update-url', 'false');
+      }
 
-@media screen and (max-width: 749px) {
-  quick-add-modal .slider .product__media-item.grid__item {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-  }
+      removeDOMElements() {
+        const pickupAvailability = this.productElement.querySelector('pickup-availability');
+        if (pickupAvailability) pickupAvailability.remove();
 
-  .quick-add-modal__content {
-    bottom: var(--modal-height-offset);
-  }
+        const productModal = this.productElement.querySelector('product-modal');
+        if (productModal) productModal.remove();
 
-  .quick-add-modal__content-info > * {
-    max-height: 100%;
-  }
+        const modalDialog = this.productElement.querySelectorAll('modal-dialog');
+        if (modalDialog) modalDialog.forEach((modal) => modal.remove());
+      }
 
-  quick-add-modal .product--mobile-columns .product__media-item {
-    width: calc(100% - 3rem - var(--grid-mobile-horizontal-spacing));
-  }
-}
+      preventDuplicatedIDs() {
+        const sectionId = this.productElement.dataset.section;
+        this.productElement.innerHTML = this.productElement.innerHTML.replaceAll(sectionId, `quickadd-${sectionId}`);
+        this.productElement.querySelectorAll('variant-selects, product-info').forEach((element) => {
+          element.dataset.originalSection = sectionId;
+        });
+      }
 
-.quick-add-modal__toggle {
-  background-color: rgb(var(--color-background));
-  border: 0.1rem solid rgba(var(--color-foreground), 0.1);
-  border-radius: 50%;
-  color: rgba(var(--color-foreground), 0.55);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  padding: 1.2rem;
-  z-index: 5;
-  width: 4rem;
-  position: fixed;
-  top: 1.5rem;
-  right: 1.5rem;
-}
+      removeGalleryListSemantic() {
+        const galleryList = this.modalContent.querySelector('[id^="Slider-Gallery"]');
+        if (!galleryList) return;
 
-.quick-add-modal__toggle:hover {
-  color: rgba(var(--color-foreground), 0.75);
-}
+        galleryList.setAttribute('role', 'presentation');
+        galleryList.querySelectorAll('[id^="Slide-"]').forEach((li) => li.setAttribute('role', 'presentation'));
+      }
 
-.quick-add-modal__toggle .icon {
-  height: auto;
-  margin: 0;
-  width: 2.2rem;
-}
+      updateImageSizes() {
+        const product = this.modalContent.querySelector('.product');
+        const desktopColumns = product.classList.contains('product--columns');
+        if (!desktopColumns) return;
 
-quick-add-modal .product:not(.featured-product) .product__view-details {
-  display: block;
-}
+        const mediaImages = product.querySelectorAll('.product__media img');
+        if (!mediaImages.length) return;
 
-quick-add-modal .quick-add-hidden,
-quick-add-modal .product__modal-opener:not(.product__modal-opener--image),
-quick-add-modal .product__media-item:not(:first-child) {
-  display: none !important;
-}
+        let mediaImageSizes =
+          '(min-width: 1000px) 715px, (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)';
 
-quick-add-modal .slider.slider--mobile {
-  overflow: visible;
-}
+        if (product.classList.contains('product--medium')) {
+          mediaImageSizes = mediaImageSizes.replace('715px', '605px');
+        } else if (product.classList.contains('product--small')) {
+          mediaImageSizes = mediaImageSizes.replace('715px', '495px');
+        }
 
-quick-add-modal .product__column-sticky .product__media-list {
-  margin-bottom: 0;
-}
-
-quick-add-modal .product__media-list .deferred-media {
-  display: block;
-  width: 100%;
-}
-
-quick-add-modal .product__column-sticky {
-  top: 0;
-  position: relative;
-}
-
-@media screen and (min-width: 750px) {
-  quick-add-modal .product:not(.product--no-media) .product__media-wrapper {
-    max-width: 45%;
-    width: calc(45% - var(--grid-desktop-horizontal-spacing) / 2);
-  }
-
-  quick-add-modal .product:not(.product--no-media) .product__info-wrapper {
-    padding-left: 4rem;
-    max-width: 54%;
-    width: calc(54% - var(--grid-desktop-horizontal-spacing) / 2);
-  }
-
-  quick-add-modal .product--columns .product__media-item:not(.product__media-item--single):not(:only-child) {
-    max-width: 100%;
-    width: 100%;
-  }
-
-  quick-add-modal .thumbnail-slider .thumbnail-list.slider--tablet-up {
-    display: none;
-  }
-}
-
-quick-add-modal .page-width {
-  padding: 0;
-}
-
-quick-add-modal .product__title > h1 {
-  display: none;
-}
-
-quick-add-modal .product__title > a {
-  display: block;
-  text-decoration: none;
-}
-
-quick-add-modal .product__title > a:hover {
-  color: rgb(var(--color-foreground));
-  text-decoration: underline;
-  text-underline-offset: 0.2rem;
-  text-decoration-thickness: 0.3rem;
-}
-
-quick-add-modal .product-form__buttons {
-  max-width: initial;
-}
-
-.quick-add__submit {
-  padding: 0.8rem;
-  min-width: 100%;
-  box-sizing: border-box;
-}
-
-quick-add-modal .product-media-container.constrain-height {
-  --viewport-offset: calc((var(--modal-height-offset) + var(--modal-padding) + var(--popup-border-width)) * 2);
-}
-
-@media screen and (min-width: 750px) {
-  quick-add-modal .product-media-container.constrain-height {
-    --constrained-min-height: 400px;
-  }
+        mediaImages.forEach((img) => img.setAttribute('sizes', mediaImageSizes));
+      }
+    }
+  );
 }
