@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "banner": {
@@ -199,7 +208,7 @@
         "template--21562497138881__c1e2fa8f-37a2-4678-a837-ad6cbfa84a04-featured_collection-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "brush-sets"
+            "collection": "makeup-brush-sets"
           }
         },
         "template--21562497138881__c1e2fa8f-37a2-4678-a837-ad6cbfa84a04-featured_collection-2": {
